@@ -1,0 +1,20 @@
+.audio-player::before{
+    background: none;
+    
+}
+.audio-player::after{
+    background: none;
+    height: 0px;
+}
+
+.bg-podcast::after{
+    background: none;
+}
+
+.bg-podcast > div::after{
+    background: none;
+}
+
+.bg-podcast {
+    padding-bottom: 0px;
+}

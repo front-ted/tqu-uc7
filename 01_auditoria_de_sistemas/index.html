@@ -29,6 +29,10 @@
     <link rel="stylesheet" href="../assets/css/template.css">
     <!-- Estilos da pagina -->
     <link rel="stylesheet" href="styles/custom.css">
+    <!-- paineis -->
+     <link rel="stylesheet" href="styles/painel-condutas.css">
+     <!-- audio player -->
+      <link rel="stylesheet" href="styles/audio.css">
 
   </head>
   
@@ -374,9 +378,13 @@
               As etapas da auditoria de sistemas de gestão da qualidade são semelhantes ao ciclo PDCA, porém são classificadas como PCRA. 
             </p>
 
-            <h4>espera caixinha destaque</h4>
+            <figure>
+              <div class="figure-img">
+                  <img class="img-fluid mx-auto d-block" src="img/esquema02.png">
+              </div>                      
+            </figure>
 
-            <p>
+            <p class="mt-5">
               A fase “Planejar” define os objetivos, o escopo, o critério e a equipe. De modo geral, prepara-se o plano da auditoria, analisando criticamente os documentos e preparando os documentos de trabalho. A fase “Conduzir” trata desde a reunião de abertura, a coleta de evidências e as reuniões de equipe até a reunião de encerramento. A fase seguinte, “Relatar”, abrange o relatório da auditoria, sua preparação, a análise crítica, a aprovação e a distribuição e, por fim, há a fase “Acompanhar”, que realiza o acompanhamento das ações corretivas. 
             </p>
 
@@ -397,24 +405,19 @@
             </p>
 
             <div class="painel-condutas">
-              <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalCondutaEtica">
-                Conduta ética
+              <button type="button" class="btn-painel-condutas btn-conduta-etica" data-bs-toggle="modal" data-bs-target="#modalCondutaEtica">
               </button>
 
-              <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalApresentacaoJusta">
-                Apresentação justa
+              <button type="button" class="btn-painel-condutas btn-apresentacao-justa" data-bs-toggle="modal" data-bs-target="#modalApresentacaoJusta">
               </button>
 
-              <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalCuidadoProfissional">
-                Cuidado profissional
+              <button type="button" class="btn-painel-condutas btn-cuidado-profissional" data-bs-toggle="modal" data-bs-target="#modalCuidadoProfissional">
               </button>
 
-              <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalIndependencia">
-                Independência
+              <button type="button" class="btn-painel-condutas btn-independencia" data-bs-toggle="modal" data-bs-target="#modalIndependencia">
               </button>
 
-              <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalAbordagemBaseadaEvidencia">
-                Abordagem baseada em evidência
+              <button type="button" class="btn-painel-condutas btn-abordagem-baseada-em-evidencia" data-bs-toggle="modal" data-bs-target="#modalAbordagemBaseadaEvidencia">
               </button>
             
             </div>
@@ -526,7 +529,23 @@
               Essa avaliação sistemática e imparcial dos processos do SGQ permite à organização identificar não conformidades e implementar ações corretivas e preventivas, contribuindo para a excelência operacional. Contudo, os objetivos de uma auditoria de sistemas de gestão da qualidade também podem ser diversos e abrangentes. Veja alguns dos principais no infográfico a seguir. 
             </p>
 
-            <h4>espera infografico objetivos</h4>
+            <figure>
+              <div class="figure-img">
+                  <img class="img-fluid mx-auto d-block" src="img/infografico.png">
+              </div>                      
+            </figure>
+
+            <div class="acessivel no-print visually-hidden">
+              <ol>
+                <li>Verificar se está de acordo com os requisitos das normas e padrões de qualidade, garantindo a certificação e a credibilidade da organização no mercado. </li>
+                <li>Avaliar a eficiência e a eficácia dos processos e procedimentos relacionados à qualidade, identificando pontos fortes e áreas de melhoria. </li>
+                <li>Fomentar a transparência e a transparência dentro da empresa, assegurando a integridade e a confiabilidade dos sistemas de administração. </li>
+                <li>Identificar e reduzir os perigos relacionados à excelência de produtos e serviços, preservando a reputação e a imagem da empresa. </li>
+                <li>
+                  Dar retorno e orientação à alta direção e às equipes responsáveis pela gestão da qualidade, auxiliando na tomada de decisões estratégicas e na aplicação de recursos. 
+                </li>
+              </ol>
+            </div>
 
             <p>
               Sendo assim, a auditoria tem como objetivo principal verificar a concordância do sistema de gestão da qualidade com as normas e os padrões estabelecidos, seja a ISO 9001 ou outras normas referentes ao setor específico da organização. Essa análise minuciosa garante que os processos estejam de acordo com as melhores práticas reconhecidas internacionalmente, o que aumenta a credibilidade da companhia e sua competitividade no mercado global. 
@@ -636,15 +655,27 @@
               Clique ou toque para visualizar o conteúdo. 
             </p>
 
-            <div class="tipos-auditorias">
+            <div class="painel-tipos-auditorias">
 
-              <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalAuditoriaInterna">
-                Auditoria interna
-              </button>
 
-              <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalAuditoriaExterna">
-                Auditoria externa
-              </button>
+
+              <div class="row g0">
+                <div class="col-md-6">
+                  <button type="button" class="btn-auditoria btn-auditoria-interna" data-bs-toggle="modal" data-bs-target="#modalAuditoriaInterna">
+                  </button>
+                </div>
+                <div class="col-md-6">
+                  <button type="button" class="btn-auditoria btn-auditoria-externa" data-bs-toggle="modal" data-bs-target="#modalAuditoriaExterna">
+                  </button>
+                </div>
+              </div>
+
+
+
+
+              
+
+             
 
             </div>
 
@@ -780,7 +811,11 @@
               Conforme mencionado, as auditorias podem ser de natureza interna ou externa. No que diz respeito à <b>auditoria interna</b>, também conhecida como <b>auditoria de primeira parte</b>, é importante destacar são conduzidas pelos próprios membros da organização, com o propósito de avaliar a conformidade e a eficácia dos processos internos do SGQ. 
             </p>
 
-            <h4>espera imagem ou elemento gráfico que remeta ao auditor.</h4>
+            <figure>
+              <div class="figure-img">
+                  <img class="img-fluid mx-auto d-block" src="img/fig03.png">
+              </div>                      
+            </figure>
 
             <p>
               O trabalho do auditor interno contribui para a gestão, impulsionando o planejamento estratégico elaborado para alcançar maior desempenho em processos, objetivos e políticas estabelecidas pela empresa, pois seu principal objetivo é auxiliar a administração, fornecendo-lhe conhecimento sobre como desenvolver suas atividades e condições para um desempenho adequado de suas responsabilidades, proporcionando análises, apreciações e recomendações. Além disso, busca verificar se as normas internas vigentes estão sendo seguidas e se há a necessidade de aprimorar ou implantar novas normas. 

@@ -19,3 +19,34 @@
     text-align: justify;
     margin-bottom: 0px;
   }
+
+.btn-auditoria{
+    background-size: cover;
+    background: transparent;
+    border: none;
+    height: 301px;
+    width: 351px;
+}
+
+.btn-auditoria:hover{
+    transition: 0.5s ease;
+}
+
+
+.btn-auditoria-interna{
+    background: url('../img/bt01.png');
+}
+
+.btn-auditoria-externa{
+    background: url('../img/bt02.png');
+}
+
+.btn-auditoria-interna:hover{
+    background: url('../img/bt01_hover.png');
+}
+
+.btn-auditoria-externa:hover{
+    background: url('../img/bt02_hover.png');
+}
+
+

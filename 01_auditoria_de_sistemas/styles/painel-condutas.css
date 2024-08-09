@@ -1,0 +1,96 @@
+.painel-condutas{
+    background: url('../img/painel.png');
+    background-size: cover;
+    height: 501px;
+    width: 901px;
+    position: relative;
+  }
+
+  .btn-painel-condutas{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    height: 154px;
+    width: 330px;
+  }
+
+  .btn-conduta-etica{
+    background: url('../img/painel-bt01.png') ;
+    margin-top: -2%;
+    margin-left: 32.5%;
+  }
+
+  .btn-apresentacao-justa{
+    background: url('../img/painel-bt02.png') ;
+    margin-top: 15%;
+    margin-left: 64.5%;
+  }
+
+  .btn-cuidado-profissional{
+    background: url('../img/painel-bt03.png') ;
+    margin-top: 36.5%;
+    margin-left: 64.5%;
+
+  }
+
+  .btn-independencia{
+    background: url('../img/painel-bt04.png') ;
+    margin-top: 36.5%;
+  }
+
+  .btn-abordagem-baseada-em-evidencia{
+    background: url('../img/painel-bt05.png') ;
+    margin-top: 15%;
+  }
+  
+  .btn-painel-condutas:hover{
+    transition: 0.5s ease;
+  }
+
+  .btn-conduta-etica:hover{
+    background: url('../img/painel-bt01_hover.png') ;
+  }
+
+  .btn-apresentacao-justa:hover{
+    background: url('../img/painel-bt02_hover.png') ;
+  }
+
+  .btn-cuidado-profissional:hover{
+    background: url('../img/painel-bt03_hover.png') ;
+  }
+
+  .btn-independencia:hover{
+    background: url('../img/painel-bt04_hover.png') ;
+  }
+
+  .btn-abordagem-baseada-em-evidencia:hover{
+    background: url('../img/painel-bt05_hover.png') ;
+  }
+
+  @media screen and (max-width: 900px){
+
+
+    .painel-condutas{
+      background: none; 
+      display: flex;
+      flex-direction: column; 
+      height: auto;
+      width: 100%;
+      align-items: center;
+    }
+
+    .btn-painel-condutas{
+      position: relative;
+    }
+
+    .btn-conduta-etica, .btn-apresentacao-justa, .btn-cuidado-profissional, .btn-independencia, .btn-abordagem-baseada-em-evidencia{
+      margin-top: unset;
+      margin-left: unset;
+    }
+  
+    
+  
+
+
+  }
