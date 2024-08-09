@@ -1,0 +1,47 @@
+/*------------ Expandir Saiba Mais ------------*/
+
+.caixa-container {
+    position: relative;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 60px !important;
+  }
+  
+  .caixa-exp {
+    max-height: 60px;
+    overflow: hidden;
+    width: 100%;
+    margin: 40px auto;
+    transition-duration: .7s;
+    position: relative;
+    border: none;
+  
+  }
+  
+  .caixa-exp.aberta {
+    max-height: 1900px;
+  }
+  
+  .caixa-exp figure {
+    margin-top: 40px;
+  }
+  
+  .caixa-container button.btpluscaixa {
+    content: '';
+    background-image: url('../img/bt_mais2.png');
+    background-size: contain;
+    background-position: center;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .caixa-container button.btpluscaixa:hover {
+    transform: translateX(-50%) scale(1.03);
+  }
