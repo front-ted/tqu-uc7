@@ -1,3 +1,10 @@
+body{
+  background: url(../img/bg.jpg) fixed;
+  background-size: cover;
+}
+
+
+
 .espera-video{
     background-color: black;
     color: antiquewhite;
@@ -67,3 +74,60 @@
   .caixa-container button.btpluscaixa:hover {
     transform: translateX(-50%) scale(1.03);
   }
+
+
+  /*-------- CARDS --------*/
+.flip-card {
+  background-color: transparent;
+  width: 280px;
+  height: 413px;
+  margin: 20px auto;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+/*-------- /CARDS --------*/
+
+.custom-number1{
+  list-style: url(../img/lista1.png);  
+}
+
+.custom-number2{
+  list-style: url(../img/lista2.png) ;
+}
+
+.custom-number3{
+  list-style: url(../img/lista3.png) ;
+}
+
+.custom-number4{
+  list-style: url(../img/lista4.png) ;
+}
+
+/* .custom-li{
+  padding-left: 0px;
+} */
