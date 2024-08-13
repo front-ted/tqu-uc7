@@ -1,0 +1,187 @@
+
+.painel-principios-auditoria{
+    height: 441px;
+    width: 751px;
+    background: url(../img/layout-painel02.png);
+    position: relative;
+    margin: auto;
+  }
+
+  .btn-painel-principios{
+    position: absolute;
+    background-color: transparent;
+    border-radius: 40px;
+    border: none;
+  }
+
+  .btn-integridade{
+    height: 74px;
+    width: 189px;
+    top: 19%;
+    left: 8.5%;
+  }
+
+  .btn-apresentacao-justa{
+    height: 70px;
+    width: 190px;
+    top: 5%;
+    left: 36%;
+  }
+
+  .btn-devido-cuidado{
+    height: 70px;
+    width: 190px;
+    top: 19%;
+    left: 64%;
+  }
+
+  .btn-independencia{
+    height: 70px;
+    width: 190px;
+    top: 48%;
+    left: 4%;
+  }
+
+  .btn-confidencialidade{
+    height: 70px;
+    width: 190px;
+    top: 48%;
+    left: 68%;
+  }
+
+  .btn-abordagem-risco{
+    height: 70px;
+    width: 244px;
+    top: 76%;
+    left: 63%;
+  }
+
+  .btn-abordagem-evidencia{
+    height: 70px;
+    width: 244px;
+    top: 76%;
+    left: 3%;
+  }
+
+
+  .btn-painel-principios:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+ 
+
+  .btn-integridade:hover{
+    background: url(../img/painel-bt07_.png);
+  }
+
+  .btn-apresentacao-justa:hover{
+    background: url(../img/painel-bt01_.png);
+    background-repeat: no-repeat;
+
+  }
+
+  .btn-devido-cuidado:hover{
+    background: url(../img/painel-bt06_.png);
+    background-repeat: no-repeat;
+
+  }
+
+  .btn-independencia:hover{
+    background: url(../img/painel-bt03_.png);
+    background-repeat: no-repeat;
+
+  }
+
+  .btn-confidencialidade:hover{
+    background: url(../img/painel-bt02_.png);
+    background-repeat: no-repeat;
+
+  }
+
+  .btn-abordagem-risco:hover{
+    background: url(../img/painel-bt05_.png);
+    background-repeat: no-repeat;
+
+  }
+
+  .btn-abordagem-evidencia:hover{
+    background: url(../img/painel-bt04_.png);
+    background-repeat: no-repeat;
+
+  }
+
+  @media screen and (max-width: 900px){
+
+
+    .painel-principios-auditoria{
+      height: auto;
+      width: 100%;
+      background: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .btn-painel-principios{
+      position: relative;
+      background-repeat: no-repeat;
+    }
+
+    .btn-integridade{
+      background: url(../img/painel-bt07.png);
+      background-repeat: no-repeat;
+    }
+  
+    .btn-apresentacao-justa{
+      background: url(../img/painel-bt01.png);
+      background-repeat: no-repeat;
+  
+    }
+  
+    .btn-devido-cuidado{
+      background: url(../img/painel-bt06.png);
+      background-repeat: no-repeat;
+  
+    }
+  
+    .btn-independencia{
+      background: url(../img/painel-bt03.png);
+      background-repeat: no-repeat;
+      margin-bottom: 20px;
+    }
+  
+    .btn-confidencialidade{
+      background: url(../img/painel-bt02.png);
+      background-repeat: no-repeat;
+  
+    }
+  
+    .btn-abordagem-risco{
+      background: url(../img/painel-bt05.png);
+      background-repeat: no-repeat;
+  
+    }
+  
+    .btn-abordagem-evidencia{
+      background: url(../img/painel-bt04.png);
+      background-repeat: no-repeat;
+  
+    }
+    
+    .btn-integridade,
+    .btn-apresentacao-justa,
+    .btn-devido-cuidado,
+    .btn-independencia,
+    .btn-confidencialidade,
+    .btn-abordagem-risco,
+    .btn-abordagem-evidencia{
+     
+      top: unset;
+      left: unset;
+    }
+
+
+
+  }

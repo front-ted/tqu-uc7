@@ -1,0 +1,85 @@
+.painel-pdca{
+    height: 355px;
+    width: 355px;
+    background: url(../img/painel3-centro.png);
+    margin: auto;
+    position: relative;
+  }
+
+  .btn-painel-pdca{
+    position: absolute;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    background: white;
+  }
+
+  .btn-painel-pdca:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+
+  .btn-plan{
+    border: 5px solid rgb(6,72,135);
+    font-weight: 900;
+  }
+
+  .btn-plan-1{
+    top: -1%;
+    left: 64%;
+  }
+
+  .btn-plan-2{
+    top: 10%;
+    left: 80%;
+  }
+
+  .btn-plan-3{
+    top: 27%;
+    left: 91%;
+  }
+
+  .btn-do{
+    border: 5px solid rgb(228,145,140);
+    font-weight: 900;
+  }
+
+  .btn-do-1{
+    top: 67%;
+    left: 88%;
+  }
+
+  .btn-do-2{
+    top: 87%;
+    left: 70%;
+  }
+
+  .bt-check{
+    border: 5px solid rgb(239,237,237);
+    font-weight: 900;
+  }
+
+  .bt-check-1{
+    top: 64%;
+    left: -1%;
+  }
+
+  .bt-check-2{
+    top: 87%;
+    left: 19%;
+  }
+
+  .btn-act{
+    border: 5px solid rgb(137,171,208);
+    font-weight: 900;
+  }
+
+  .btn-act-1{
+    top: 0%;
+    left: 23%;
+  }
+
+  .btn-act-2{
+    top: 17%;
+    left: 2%;
+  }

@@ -1,3 +1,48 @@
+body{
+  background-image: url('../img/textura.png');
+}
+
+.bloco1{
+  margin-bottom: 20%;
+}
+
+
+.bloco2{
+  background-image: linear-gradient(to right top, rgba(128, 172, 211, 0.5), rgba(227, 144, 140, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  margin-top: -5%;
+  padding-bottom: 5%;}
+
+.bloco3{
+  margin-bottom: 9%;
+}
+
+.bloco4 {
+  background-image: linear-gradient(to left top, rgba(128, 172, 211, 0.5), rgba(227, 144, 140, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  padding-bottom: 10%;
+}
+
+.bloco5{
+  margin-bottom: 10%;
+}
+
+.bloco6{
+  background-image: linear-gradient(to right top, rgba(128, 172, 211, 0.5), rgba(227, 144, 140, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  padding-bottom: 8%;
+}
+
+ .img-div {
+  margin-top: -4%;
+} 
+
+#booklet {
+  margin-bottom: -5%;
+}
+
+.botao-exemplo{
+  display: flex;
+  justify-content: center;
+}
+
 .espera-video{
     background-color: black;
     color: antiquewhite;
@@ -67,3 +112,19 @@
   .caixa-container button.btpluscaixa:hover {
     transform: translateX(-50%) scale(1.03);
   }
+
+  .bt-anexo-informativo{
+    background: url(../img/bt-anexo-informativo.png);
+    height: 166px;
+    width: 201px;
+    border: none;
+    margin: auto;
+  }
+
+  .bt-anexo-informativo:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+
+
+  

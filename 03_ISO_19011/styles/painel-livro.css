@@ -1,0 +1,208 @@
+
+.painel-livro{
+    background: url(../img/painel-bg.png);
+    width: 682px;
+    height: 589px;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+  }
+  
+  .btn-painel-livro{
+    position: absolute;
+    border: none;
+    background: transparent;
+  }
+  
+  .btn-evidencia-auditoria{
+    background: url(../img/bt-evidencia-de-auditoria.png);
+    height: 42px;
+    width: 221px;
+    top: 18%;
+    left: 30%;
+  }
+  
+  .btn-evidencia-objetiva{
+    background: url(../img/bt-evidencia-objetiva.png);
+    height: 55px;
+    width: 191px;
+    top: 28%;
+    left: 0%;
+  }
+  
+  .btn-equipe-auditoria{
+    background: url(../img/bt-equipe.png);
+    height: 42px;
+    width: 211px;
+    top: 28%;
+    left: 60%;
+  }
+  
+  .btn-sistema-gestao{
+    background: url(../img/bt-sistema.png);
+    height: 42px;
+    width: 201px;
+    top: 35%;
+    left: 30%;
+  }
+  
+  .btn-risco{
+    background: url(../img/bt-risco.png);
+    height: 41px;
+    width: 101px;
+    top: 43%;
+    left: 10%;
+  }
+  
+  .btn-conformidade{
+    background: url(../img/bt-conformidade.png);
+    height: 42px;
+    width: 171px;
+    top: 46%;
+    left: 60%;
+  }
+  
+  .btn-nao-conformidade{
+    background: url(../img/bt-nao-conformidade.png);
+    height: 42px;
+    width: 201px;
+    top: 50%;
+    left: 28%;
+  }
+  
+  .btn-processo{
+    background: url(../img/bt-processo.png);
+    height: 42px;
+    width: 131px;
+    top: 58%;
+    left: 8%;
+  }
+  
+  .btn-eficacia{
+    background: url(../img/bt-eficacia.png);
+    height: 42px;
+    width: 131px;
+    top: 68%;
+    left: 38%;
+  }
+  
+  .btn-requisito{
+    background: url(../img/bt-requisito.png);
+    height: 42px;
+    width: 131px;
+    top: 58%;
+    left: 68%;
+  }
+
+  .btn-competencia{
+    background: url(../img/bt-competencia.png);
+    height: 42px;
+    width: 172px;
+    top: 68%;
+    left: -6%;
+  }
+
+  .btn-desempenho{
+    background: url(../img/bt-desempenho.png);
+    height: 42px;
+    width: 171px;
+    top: 68%;
+    left: 74%;
+  }
+  
+  .btn-painel-livro:hover{
+    transition: 0.5s ease;
+    transform: scale(1.2);
+  }
+  
+  .btn-evidencia-auditoria:hover{
+    background: url(../img/bt-evidencia-de-auditoria_.png);
+  }
+  
+  .btn-evidencia-objetiva:hover{
+    background: url(../img/bt-evidencia-objetiva_.png);
+  }
+  
+  .btn-equipe-auditoria:hover{
+    background: url(../img/bt-equipe_.png);
+  }
+  
+  .btn-sistema-gestao:hover{
+    background: url(../img/bt-sistema_.png);
+  }
+  
+  .btn-risco:hover{
+    background: url(../img/bt-risco_.png);
+  }
+  
+  .btn-conformidade:hover{
+    background: url(../img/bt-conformidade_.png);
+  }
+  
+  .btn-nao-conformidade:hover{
+    background: url(../img/bt-nao-conformidade_.png);
+  }
+  
+  .btn-processo:hover{
+    background: url(../img/bt-processo_.png);
+  }
+  
+  .btn-eficacia:hover{
+    background: url(../img/bt-eficacia_.png);
+  }
+  
+  .btn-requisito:hover{
+    background: url(../img/bt-requisito_.png);
+  }
+
+  .btn-competencia:hover{
+    background: url(../img/bt-competencia_.png);
+    
+  }
+
+  .btn-desempenho:hover{
+    background: url(../img/bt-desempenho_.png);
+    
+  }
+
+
+
+  @media screen and (max-width: 850px){
+
+    .painel-livro{
+      background: none;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .btn-painel-livro{
+      position: relative;
+     
+    }
+
+    .btn-evidencia-auditoria,
+    .btn-evidencia-objetiva,
+    .btn-equipe-auditoria,
+    .btn-sistema-gestao,
+    .btn-risco,
+    .btn-conformidade,
+    .btn-nao-conformidade,
+    .btn-processo,
+    .btn-requisito,
+    .btn-competencia,
+    .btn-desempenho,
+    .btn-eficacia
+    {
+     
+      top: unset;
+      left: unset;
+    }
+    
+    
+
+
+  }

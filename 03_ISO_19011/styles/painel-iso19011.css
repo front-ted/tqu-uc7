@@ -1,0 +1,139 @@
+
+.painelISO19011{
+    background: url('../img/bg-painel.png');
+    height: 455px;
+    width: 791px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 15px;
+  }
+
+  .btn-painelISO19011{
+    height: 35px;
+    width: 426px;
+    background-color: transparent;
+  }
+
+  .btn-escopo{
+    background: url(../img/bt1.png);
+  }
+
+  .btn-referencias-normativas{
+    background: url(../img/bt2.png);
+
+  }
+
+  .btn-termos-definicoes{
+    background: url(../img/bt7.png);
+
+  }
+
+  .btn-principios-auditoria{
+    background: url(../img/bt3.png);
+  }
+
+  .btn-gerenciando-qualidade{
+    background: url(../img/bt4.png);
+  }
+
+  .btn-conduzindo-auditoria{
+    background: url(../img/bt5.png);
+  }
+
+  .btn-competencia-avaliacao{
+    background: url(../img/bt6.png);
+  }
+
+  .btn-painelISO19011:hover{
+    transition: 0.5s ease;
+  }
+
+  .btn-escopo:hover{
+    background: url(../img/bt1_.png);
+  }
+
+  .btn-referencias-normativas:hover{
+    background: url(../img/bt2_.png);
+
+  }
+
+  .btn-termos-definicoes:hover{
+    background: url(../img/bt7_.png);
+
+  }
+
+  .btn-principios-auditoria:hover{
+    background: url(../img/bt3_.png);
+  }
+
+  .btn-gerenciando-qualidade:hover{
+    background: url(../img/bt4_.png);
+  }
+
+  .btn-conduzindo-auditoria:hover{
+    background: url(../img/bt5_.png);
+  }
+
+  .btn-competencia-avaliacao:hover{
+    background: url(../img/bt6_.png);
+  }
+
+  @media screen and (max-width: 900px){
+
+    .painelISO19011{
+      background: none;
+      width:100%;
+      
+    }
+  
+
+
+  }
+
+  @media screen and (max-width: 600px){
+
+    .btn-painelISO19011{
+      height: 34px;
+      width: 311px;
+      background-color: transparent;
+    }
+  
+
+    .btn-escopo{
+      background: url(../img/bt1_mobile.png);
+    }
+  
+    .btn-referencias-normativas{
+      background: url(../img/bt2_mobile.png);
+  
+    }
+  
+    .btn-termos-definicoes{
+      background: url(../img/bt7_mobile.png);
+  
+    }
+  
+    .btn-principios-auditoria{
+      background: url(../img/bt3_mobile.png);
+    }
+  
+    .btn-gerenciando-qualidade{
+      background: url(../img/bt4_mobile.png);
+    }
+  
+    .btn-conduzindo-auditoria{
+      background: url(../img/bt5_mobile.png);
+    }
+  
+    .btn-competencia-avaliacao{
+      background: url(../img/bt6_mobile.png);
+    }
+  
+  
+
+
+  }
