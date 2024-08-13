@@ -1,0 +1,187 @@
+.bloco1{
+    padding-top: 2%;
+    background: url(../img/bgs/img01.png);
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+.bloco2{
+    padding-top: 2%;
+    margin-top: -2%;
+    background: url(../img/bgs/img02.png);
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+.bloco3{
+    padding-top: 2%;
+    margin-top: -2%;
+    background: url(../img/bgs/img03.png);
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+.bloco4{
+    padding-top: 2%;
+    margin-top: -2%;
+    background: url(../img/bgs/img04.png);
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+.bloco5{
+    padding-top: 2%;
+    margin-top: -2%;
+    background: url(../img/bgs/img05.png);
+    background-size: cover;
+    padding-bottom: 2%;
+}
+
+
+.painel-tecnicas{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.btn-painel-tecnicas{
+    border: none;
+    background: transparent;
+    height: 201px;
+    width: 201px;
+}
+
+.btn-entrevistas{
+    background: url(../img/bt-entrevista.png);
+}
+
+.btn-observacao{
+    background: url(../img/bt-observacao.png);
+}
+
+.btn-analise{
+    background: url(../img/bt-analise.png);
+}
+
+.btn-painel-tecnicas:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.btn-entrevistas:hover{
+    background: url(../img/bt-entrevista_hover.png);
+}
+
+.btn-observacao:hover{
+    background: url(../img/bt-observacao_hover.png);
+}
+
+.btn-analise:hover{
+    background: url(../img/bt-analise_hover.png);
+}
+
+.painel-conhecimentos-habilidades{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.btn-painel-conhecimentos-habilidades{
+    background: transparent;
+    border: none;
+    height: 63px;
+    width: 228px;
+}
+
+.btn-conhecimentos{
+    background: url(../img/bt-lampada2.png);
+}
+
+.btn-habilidades{
+    background: url(../img/bt-lampada1.png);
+}
+
+.btn-painel-conhecimentos-habilidades:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
+.btn-conhecimentos:hover{
+    background: url(../img/bt-lampada_hover.png);
+}
+
+.btn-habilidades:hover{
+    background: url(../img/bt-lampada1_hover.png);
+}
+
+
+.personagem{
+    display: flex;
+    justify-content: center;
+}
+
+.personagem img {
+    max-height: 200px;
+}
+
+.painel-responsablidades-auditor{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.btn-painel-responsablidades-auditor{
+    background: transparent;
+    border: none;
+    height: 201px;
+    width: 201px;
+}
+
+.btn-ISO17021{
+    background: url(../img/bt-iso17021.png);
+}
+
+.btn-ISO19011{
+    background: url(../img/bt-iso19011.png);
+}
+
+.btn-painel-responsablidades-auditor:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
+.btn-ISO17021:hover{
+    background: url(../img/bt-iso17021_hover.png);
+}
+
+.btn-ISO19011:hover{
+    background: url(../img/bt-iso19011_hover.png);
+}
+
+
+@media screen and (max-width: 800px){
+
+    .painel-tecnicas{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+  }
+
+  
+@media screen and (max-width: 550px){
+
+    .painel-conhecimentos-habilidades{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .painel-responsablidades-auditor{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+  }
