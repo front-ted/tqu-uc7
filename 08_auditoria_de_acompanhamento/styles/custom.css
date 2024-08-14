@@ -61,3 +61,37 @@
 .bg-podcast {
     padding-bottom: 0px;
 }
+
+
+@media screen and (max-width: 940px){  
+    .painel-principal{
+        height: 453px;
+        width: 100%;
+        background: url(../img/timeline-mobile.png) center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .btn-conceito__painel-principal{
+        background: none;
+        left: 45%;
+    }
+    
+    .btn-tipo__painel-principal{
+        background: none ;
+        height: 113px;
+        width: 150px;
+        top: 74%;
+        left: 45%;
+    }
+
+    .btn-aplicacao__painel-principal{
+        background: none;
+        height: 128px;
+        width: 223px;
+        top: 36%;
+        left: 45%;
+        
+    }
+    
+  }
