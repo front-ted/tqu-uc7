@@ -74,18 +74,18 @@
             Clique ou toque para visualizar o conteúdo.  
           </p>
 
+          
           <div class="painel-principal no-print">
-
-            <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalConceito">
-              Conceito e finalidade 
+            
+            <button type="button" class="btn__painel-principal btn-conceito__painel-principal" data-bs-toggle="modal" data-bs-target="#modalConceito">
             </button>
-
-            <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalAplicacao">
-              Aplicação e benefícios 
+  
+            <button type="button" class="btn__painel-principal btn-aplicacao__painel-principal" data-bs-toggle="modal" data-bs-target="#modalTipos">
+              
             </button>
-
-            <button type="button" class="botao check hvr-sweep-to-right" data-bs-toggle="modal" data-bs-target="#modalTipos">
-              Tipos de auditoria de acompanhamento  
+  
+            <button type="button" class="btn__painel-principal btn-tipo__painel-principal" data-bs-toggle="modal" data-bs-target="#modalAplicacao">
+              
             </button>
                 
           </div>
@@ -134,253 +134,253 @@
                 </div>
             </div>
           </div>
+          
 
           <div class="modal fade" id="modalAplicacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Aplicação e benefícios</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-                      <h3>Aplicação</h3>
-                      
-                      <p>
-                        Da mesma forma que uma auditoria interna precisa ser planejada, uma auditoria de acompanhamento também requer um planejamento para a definição de objetivos, a identificação das áreas a serem avaliadas e o estabelecimento do cronograma.  
-                      </p>
-
-                      <p class="no-print">
-                        Clique ou toque no botão de <i>play</i> para ouvir o áudio ou da transcrição para ler o conteúdo.  
-                      </p>
-
-                      <div class="bg-podcast no-print">
-                        <div class="d-flex justify-content-center flex-column align-items-center">
-                            <div class="audio-player no-print">
-                                <audio>
-                                    <source src="podcast/podcast.mp3" type="audio/mpeg">
-                                </audio>
-                                <div class="row">
-                                    <div class="timestamp">00:00 | 00:00</div>
-                                    <div class="barra">
-                                        <input type="range" value="0" max="4140" step="any">
-                                    </div>
-                                    <div class="botoes">
-                                        <button title="Tocar" class="btn-play btn-player"></button>
-                                        <button title="Pause" class="btn-pause btn-player"></button>
-                                        <button title="Transcrição" data-bs-toggle="modal"
-                                            data-bs-target="#modal-transcricao-audio1"
-                                            class="btn-transcricao btn-player"></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      
-                      <div class="modal fade" id="modal-transcricao-audio1" tabindex="-1"
-                              aria-labelledby="modal-transcricao-audio1" aria-hidden="true">
-                              <div class="modal-dialog modal-dialog-centered">
-                                  <div class="modal-content no-print">
-                                      <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLabel">Transcrição</h5>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                              aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-
-                                        <p>
-                                          Durante a auditoria, constatações são verificadas e evidências são coletadas, mas diferentemente de uma simples auditoria, a auditoria de acompanhamento coleta evidências que comprovam a eficácia das ações corretivas já implementadas em caso de não conformidades abertas anteriormente na realização da auditoria. Essas evidências podem incluir documentos, registros, entrevistas e observações. Os auditores podem solicitar <i>feedback</i> dos funcionários em diferentes níveis da organização para entender suas percepções sobre o funcionamento do sistema de gestão e resgatar os registros da auditoria anterior a fim de evidenciar as ações e as melhorias executadas. Essa coleta de evidências pode ser feita por meio de entrevistas e do resultado de melhoria de algum indicador de controle ou de monitoramento. Esses indicadores podem incluir métricas relacionadas à qualidade, eficiência operacional, satisfação do cliente, conformidade regulatória, entre outros.  
-                                        </p>
-                                          
-                                        <p>
-                                          Na auditoria, são analisadas as tendências dos KPIs ao longo do tempo para identificar padrões, variações ou desvios significativos. Isso ajuda a entender como o sistema de gestão está funcionando e se está atingindo os objetivos estabelecidos pela organização. Ao revisar os processos e as práticas operacionais, as auditorias de acompanhamento ajudam a garantir que essas atividades estejam alinhadas com os requisitos do sistema de gestão e assegurem sua eficácia, contribuindo para o alcance dos objetivos organizacionais. 
-                                        </p>
-
-                                        <p>
-                                          As auditorias de acompanhamento garantem que as ações corretivas tenham sido implementadas conforme planejado e sejam eficazes na resolução dos problemas. Por isso, com base nas evidências coletadas, é necessário comparar com os critérios estabelecidos na auditoria anterior, ou seja, é necessário verificar se as ações corretivas planejadas foram efetivamente implementadas pela organização. Isso inclui revisar registros relevantes, procedimentos e quaisquer outras evidências documentais que demonstrem que a execução das ações corretivas foi realizada, se as medidas implementadas estão sendo mantidas e, ainda mais, é necessário verificar se os problemas identificados foram resolvidos. Para realizar essa verificação, é necessário ter o relatório da auditoria anterior em mãos, para servir como ponto de partida, a fim de evidenciar o atendimento de requisitos. 
-                                        </p>
-
-                                        <p>
-                                          Além de verificar a implementação das ações corretivas, é importante avaliar sua eficácia. Isso significa verificar se as ações tomadas para resolver as não conformidades identificadas anteriormente foram eficazes e evitaram que novos problemas ocorressem. Isso requer uma análise cuidadosa dos registros para determinar se as ações tomadas abordaram a causa raiz das não conformidades e se estas preveniram/evitaram sua recorrência.  
-                                        </p>
-
-                                        <p>
-                                          Durante a auditoria, os auditores precisam procurar evidências sólidas de que as ações corretivas foram implementadas conforme planejado e são eficazes na correção do problema identificado. Isso pode incluir registros de treinamentos, relatórios de análise de causa raiz, registros de implementação de procedimentos revisados, entre outros. 
-                                        </p>
-
-                                        <p>
-                                          Se for constatado que as ações corretivas não foram totalmente implementadas ou não foram eficazes, isso pode resultar na identificação de não conformidades pendentes durante a auditoria de acompanhamento. Essas não conformidades devem ser documentadas e tratadas de acordo com os procedimentos estabelecidos pela organização. 
-                                        </p>
-
-                                        <p>
-                                          No caso de deficiências significativas na implementação ou na eficácia das ações corretivas, ao serem identificadas, a organização pode ser solicitada a desenvolver e implementar novas ações corretivas para resolver essas questões. Essas ações corretivas adicionais são monitoradas durante o acompanhamento subsequente. 
-                                        </p>
-
-                                        <p>
-                                          Vale ressaltar que, em caso de auditoria de certificação de manutenção ou mesmo de recertificação, os critérios para cada situação precisam ser determinados na reunião de abertura, podendo ter consequências para a organização, como a necessidade de auditorias de <i>follow-up</i> (assunto que você conhecerá mais adiante) ou mesmo possível perda do certificado. 
-                                        </p>
-
-                                        <p>
-                                          Os resultados da verificação da implementação e da eficácia das ações corretivas são comunicados à organização auditada por meio do relatório de auditoria de acompanhamento. Esse relatório descreve as constatações da auditoria, incluindo quaisquer não conformidades identificadas e quaisquer recomendações para melhorias adicionais. 
-                                        </p>
-
-
-                                      </div>
-                                      <div class="modal-footer">
-                                          <button type="button" class="btn btn-secondary"
-                                              data-bs-dismiss="modal">Fechar</button>
-                                      </div>
-                                  </div>
-                              </div>
-                      </div>
-                    
-                      <p>
-                        Uma auditoria de acompanhamento serve para avaliar a conformidade contínua do sistema de gestão. Além de verificar a conformidade, as auditorias de acompanhamento também identificam oportunidades para melhorar o sistema de gestão e os processos internos da organização. Elas garantem que o sistema de gestão permaneça em conformidade com os requisitos estabelecidos, mesmo após mudanças organizacionais, atualizações normativas ou outras alterações relevantes. 
-                      </p>
-
-                      <h3>Benefícios da auditoria de acompanhamento</h3>
-
-                      <p>
-                        As auditorias de acompanhamento promovem a verificação da conformidade do sistema de gestão e, por isso, podem trazer diversos benefícios para que sua empresa tenha domínio total sobre seus processos e agilidade suficiente para corrigir problemas identificados.  
-                      </p>
-
-                      <p class="no-print">
-                        Clique ou toque para visualizar o conteúdo.  
-                      </p>                   
-                      
-                      <div class="accordion" id="accordionBeneficios">
-                    
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                  Verificação da eficácia das ações corretivas 
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionBeneficios">
-                                <div class="accordion-body">
-                                    <p>
-                                      Por meio da auditoria de acompanhamento, é possível avaliar se as medidas implementadas foram realmente eficazes na solução dos problemas anteriormente identificados, evitando sua recorrência. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  Identificação de novos problemas 
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionBeneficios">
-                                <div class="accordion-body">
-                                    <p>
-                                      Durante a auditoria de acompanhamento, podem surgir novos problemas ou questões que não foram abordadas anteriormente. Isso permite que a organização tome medidas adicionais para corrigir essas questões, reduzindo problemas futuros. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  Garantia da conformidade  
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionBeneficios">
-                                <div class="accordion-body">
-                                    <p>
-                                      A auditoria de acompanhamento ajuda a garantir que a organização se mantenha em conformidade com as normas e os regulamentos aplicáveis. Isso é especialmente importante em setores altamente regulamentados, que necessitam se manter atualizados para atender a diversas e diferentes legislações. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="heading4">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                Preparo para próximas auditorias 
-                              </button>
-                          </h2>
-                          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionBeneficios">
-                            <div class="accordion-body">
-                                <p>
-                                  Um grande ganho de efetuar auditorias de acompanhamento é que elas ajudam a garantir que a organização esteja preparada para auditorias de certificação ou revisões de certificados, fornecendo evidências de conformidade e eficácia do sistema de gestão. Em alguns casos, a organização pode realizar simulações de auditorias para ajudar os funcionários a se familiarizarem com o processo de auditoria e praticarem respondendo a perguntas, fornecendo evidências aos auditores.  
-                                </p>
-                            </div>
-                          </div>
-                        </div>
-                    
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="heading5">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                Identificação de oportunidades de melhoria 
-                              </button>
-                          </h2>
-                          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionBeneficios">
-                            <div class="accordion-body">
-                                <p>
-                                  Além de verificar a eficácia das ações corretivas, a auditoria de acompanhamento também pode identificar oportunidades de melhoria em processos e procedimentos da organização. 
-                                </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <p class="no-print">
-                        Vamos praticar? 
-                      </p>
-
-                      <div class="box-atividade">
-                        <p class="titulo-ativ"><strong>Verdadeiro ou falso</strong></p>
-                        
-                        <div class="esquemaDaBru verdadeiro-falso">
-                            <p class="enunciado" tabindex="0">1) As auditorias de acompanhamento avaliam se o sistema de gestão da qualidade está sendo mantido e melhorado continuamente.</p>
-                            <div class="d-flex flex-wrap flex-md-nowrap justify-content-evenly">
-                                <button class="alt-c botao hvr-grow-shadow">Verdadeiro</button>
-                                <button class="alt-e botao hvr-grow-shadow">Falso</button>
-                            </div>
-                            <div class="feedbacks">
-                                <p class="f-positivo"><i
-                                        class="fas fa-check"></i> Parabéns! Resposta correta. Auditorias são um excelente mecanismo de identificação de melhorias e processos.</p>
-                                <p class="f-negativo"><i
-                                        class="fas fa-times"></i> Resposta incorreta. Você escolheu a opção errada.</p>
-                            </div>
-                        </div>
-                        <div class="esquemaDaBru verdadeiro-falso">
-                            <p class="enunciado" tabindex="0">2) Durante uma auditoria de acompanhamento, não é necessário revisar os registros relacionados às não conformidades anteriores.</p>
-                            <div class="d-flex flex-wrap flex-md-nowrap justify-content-evenly">
-                                <button class="alt-e botao hvr-grow-shadow">Verdadeiro</button>
-                                <button class="alt-c botao hvr-grow-shadow">Falso</button>
-                            </div>
-                            <div class="feedbacks">
-                                <p class="f-positivo"><i
-                                        class="fas fa-check"></i> Parabéns! Resposta correta. Auditorias são uma excelente forma de identificar registros passados e verificar sua evolução e melhoria.</p>
-                                <p class="f-negativo"><i
-                                        class="fas fa-times"></i> Resposta incorreta. Você escolheu a opção errada.</p>
-                            </div>
-                        </div>
-                        <div class="esquemaDaBru verdadeiro-falso">
-                          <p class="enunciado" tabindex="0">3) As auditorias de acompanhamento são mais detalhadas e abrangentes do que as auditorias internas regulares.</p>
-                          <div class="d-flex flex-wrap flex-md-nowrap justify-content-evenly">
-                              <button class="alt-e botao hvr-grow-shadow">Verdadeiro</button>
-                              <button class="alt-c botao hvr-grow-shadow">Falso</button>
-                          </div>
-                          <div class="feedbacks">
-                              <p class="f-positivo"><i
-                                      class="fas fa-check"></i> Parabéns! Resposta correta. Auditorias internas são muito mais precisas e aprofundam mais detalhes dos processos.</p>
-                              <p class="f-negativo"><i
-                                      class="fas fa-times"></i> Resposta incorreta. Você escolheu a opção errada.</p>
-                          </div>
-                      </div>
-                      </div>
-
-                      <div class="modal-footer">
-                          <button type="button" class="botao hvr-sweep-to-right" data-bs-dismiss="modal">Fechar</button>
-                      </div>
-                    </div>
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Aplicação e benefícios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="modal-body">
+
+                  <h3>Aplicação</h3>
+                  
+                  <p>
+                    Da mesma forma que uma auditoria interna precisa ser planejada, uma auditoria de acompanhamento também requer um planejamento para a definição de objetivos, a identificação das áreas a serem avaliadas e o estabelecimento do cronograma.  
+                  </p>
+
+                  <p class="no-print">
+                    Clique ou toque no botão de <i>play</i> para ouvir o áudio ou da transcrição para ler o conteúdo.  
+                  </p>
+
+                  <div class="bg-podcast no-print">
+                    <div class="d-flex justify-content-center flex-column align-items-center">
+                        <div class="audio-player no-print">
+                            <audio>
+                                <source src="podcast/podcast.mp3" type="audio/mpeg">
+                            </audio>
+                            <div class="row">
+                                <div class="timestamp">00:00 | 00:00</div>
+                                <div class="barra">
+                                    <input type="range" value="0" max="4140" step="any">
+                                </div>
+                                <div class="botoes">
+                                    <button title="Tocar" class="btn-play btn-player"></button>
+                                    <button title="Pause" class="btn-pause btn-player"></button>
+                                    <button title="Transcrição" class="btn-transcricao btn-player"
+                                    
+                                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+
+                                    
+                                    ></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>                   
+                  
+                  <div class="accordion" id="accordionFuncoesIndicador">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                          <button  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="display: none;">
+                            Transcrição
+                          </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFuncoesIndicador">
+                        <div class="accordion-body">   
+
+                          <h4>Transcrição do áudio</h4>
+
+                          <p>
+                            Durante a auditoria, constatações são verificadas e evidências são coletadas, mas diferentemente de uma simples auditoria, a auditoria de acompanhamento coleta evidências que comprovam a eficácia das ações corretivas já implementadas em caso de não conformidades abertas anteriormente na realização da auditoria. Essas evidências podem incluir documentos, registros, entrevistas e observações. Os auditores podem solicitar <i>feedback</i> dos funcionários em diferentes níveis da organização para entender suas percepções sobre o funcionamento do sistema de gestão e resgatar os registros da auditoria anterior a fim de evidenciar as ações e as melhorias executadas. Essa coleta de evidências pode ser feita por meio de entrevistas e do resultado de melhoria de algum indicador de controle ou de monitoramento. Esses indicadores podem incluir métricas relacionadas à qualidade, eficiência operacional, satisfação do cliente, conformidade regulatória, entre outros.  
+                          </p>
+                            
+                          <p>
+                            Na auditoria, são analisadas as tendências dos KPIs ao longo do tempo para identificar padrões, variações ou desvios significativos. Isso ajuda a entender como o sistema de gestão está funcionando e se está atingindo os objetivos estabelecidos pela organização. Ao revisar os processos e as práticas operacionais, as auditorias de acompanhamento ajudam a garantir que essas atividades estejam alinhadas com os requisitos do sistema de gestão e assegurem sua eficácia, contribuindo para o alcance dos objetivos organizacionais. 
+                          </p>
+
+                          <p>
+                            As auditorias de acompanhamento garantem que as ações corretivas tenham sido implementadas conforme planejado e sejam eficazes na resolução dos problemas. Por isso, com base nas evidências coletadas, é necessário comparar com os critérios estabelecidos na auditoria anterior, ou seja, é necessário verificar se as ações corretivas planejadas foram efetivamente implementadas pela organização. Isso inclui revisar registros relevantes, procedimentos e quaisquer outras evidências documentais que demonstrem que a execução das ações corretivas foi realizada, se as medidas implementadas estão sendo mantidas e, ainda mais, é necessário verificar se os problemas identificados foram resolvidos. Para realizar essa verificação, é necessário ter o relatório da auditoria anterior em mãos, para servir como ponto de partida, a fim de evidenciar o atendimento de requisitos. 
+                          </p>
+
+                          <p>
+                            Além de verificar a implementação das ações corretivas, é importante avaliar sua eficácia. Isso significa verificar se as ações tomadas para resolver as não conformidades identificadas anteriormente foram eficazes e evitaram que novos problemas ocorressem. Isso requer uma análise cuidadosa dos registros para determinar se as ações tomadas abordaram a causa raiz das não conformidades e se estas preveniram/evitaram sua recorrência.  
+                          </p>
+
+                          <p>
+                            Durante a auditoria, os auditores precisam procurar evidências sólidas de que as ações corretivas foram implementadas conforme planejado e são eficazes na correção do problema identificado. Isso pode incluir registros de treinamentos, relatórios de análise de causa raiz, registros de implementação de procedimentos revisados, entre outros. 
+                          </p>
+
+                          <p>
+                            Se for constatado que as ações corretivas não foram totalmente implementadas ou não foram eficazes, isso pode resultar na identificação de não conformidades pendentes durante a auditoria de acompanhamento. Essas não conformidades devem ser documentadas e tratadas de acordo com os procedimentos estabelecidos pela organização. 
+                          </p>
+
+                          <p>
+                            No caso de deficiências significativas na implementação ou na eficácia das ações corretivas, ao serem identificadas, a organização pode ser solicitada a desenvolver e implementar novas ações corretivas para resolver essas questões. Essas ações corretivas adicionais são monitoradas durante o acompanhamento subsequente. 
+                          </p>
+
+                          <p>
+                            Vale ressaltar que, em caso de auditoria de certificação de manutenção ou mesmo de recertificação, os critérios para cada situação precisam ser determinados na reunião de abertura, podendo ter consequências para a organização, como a necessidade de auditorias de <i>follow-up</i> (assunto que você conhecerá mais adiante) ou mesmo possível perda do certificado. 
+                          </p>
+
+                          <p>
+                            Os resultados da verificação da implementação e da eficácia das ações corretivas são comunicados à organização auditada por meio do relatório de auditoria de acompanhamento. Esse relatório descreve as constatações da auditoria, incluindo quaisquer não conformidades identificadas e quaisquer recomendações para melhorias adicionais. 
+                          </p>                                      
+                        </div>
+                      </div>
+                    </div>
+                  </div>                    
+          
+                  <p>
+                    Uma auditoria de acompanhamento serve para avaliar a conformidade contínua do sistema de gestão. Além de verificar a conformidade, as auditorias de acompanhamento também identificam oportunidades para melhorar o sistema de gestão e os processos internos da organização. Elas garantem que o sistema de gestão permaneça em conformidade com os requisitos estabelecidos, mesmo após mudanças organizacionais, atualizações normativas ou outras alterações relevantes. 
+                  </p>
+
+                  <h3>Benefícios da auditoria de acompanhamento</h3>
+
+                  <p>
+                    As auditorias de acompanhamento promovem a verificação da conformidade do sistema de gestão e, por isso, podem trazer diversos benefícios para que sua empresa tenha domínio total sobre seus processos e agilidade suficiente para corrigir problemas identificados.  
+                  </p>
+
+                  <p class="no-print">
+                    Clique ou toque para visualizar o conteúdo.  
+                  </p>                   
+                  
+                  <div class="accordion" id="accordionBeneficios">
+                
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              Verificação da eficácia das ações corretivas 
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionBeneficios">
+                            <div class="accordion-body">
+                                <p>
+                                  Por meio da auditoria de acompanhamento, é possível avaliar se as medidas implementadas foram realmente eficazes na solução dos problemas anteriormente identificados, evitando sua recorrência. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Identificação de novos problemas 
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionBeneficios">
+                            <div class="accordion-body">
+                                <p>
+                                  Durante a auditoria de acompanhamento, podem surgir novos problemas ou questões que não foram abordadas anteriormente. Isso permite que a organização tome medidas adicionais para corrigir essas questões, reduzindo problemas futuros. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Garantia da conformidade  
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionBeneficios">
+                            <div class="accordion-body">
+                                <p>
+                                  A auditoria de acompanhamento ajuda a garantir que a organização se mantenha em conformidade com as normas e os regulamentos aplicáveis. Isso é especialmente importante em setores altamente regulamentados, que necessitam se manter atualizados para atender a diversas e diferentes legislações. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading4">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            Preparo para próximas auditorias 
+                          </button>
+                      </h2>
+                      <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionBeneficios">
+                        <div class="accordion-body">
+                            <p>
+                              Um grande ganho de efetuar auditorias de acompanhamento é que elas ajudam a garantir que a organização esteja preparada para auditorias de certificação ou revisões de certificados, fornecendo evidências de conformidade e eficácia do sistema de gestão. Em alguns casos, a organização pode realizar simulações de auditorias para ajudar os funcionários a se familiarizarem com o processo de auditoria e praticarem respondendo a perguntas, fornecendo evidências aos auditores.  
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading5">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            Identificação de oportunidades de melhoria 
+                          </button>
+                      </h2>
+                      <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionBeneficios">
+                        <div class="accordion-body">
+                            <p>
+                              Além de verificar a eficácia das ações corretivas, a auditoria de acompanhamento também pode identificar oportunidades de melhoria em processos e procedimentos da organização. 
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <p class="no-print">
+                    Vamos praticar? 
+                  </p>
+
+                  <div class="box-atividade">
+                    <p class="titulo-ativ"><strong>Verdadeiro ou falso</strong></p>
+                    
+                    <div class="esquemaDaBru verdadeiro-falso">
+                        <p class="enunciado" tabindex="0">1) As auditorias de acompanhamento avaliam se o sistema de gestão da qualidade está sendo mantido e melhorado continuamente.</p>
+                        <div class="d-flex flex-wrap flex-md-nowrap justify-content-evenly">
+                            <button class="alt-c botao hvr-grow-shadow">Verdadeiro</button>
+                            <button class="alt-e botao hvr-grow-shadow">Falso</button>
+                        </div>
+                        <div class="feedbacks">
+                            <p class="f-positivo"><i
+                                    class="fas fa-check"></i> Parabéns! Resposta correta. Auditorias são um excelente mecanismo de identificação de melhorias e processos.</p>
+                            <p class="f-negativo"><i
+                                    class="fas fa-times"></i> Resposta incorreta. Você escolheu a opção errada.</p>
+                        </div>
+                    </div>
+                    <div class="esquemaDaBru verdadeiro-falso">
+                        <p class="enunciado" tabindex="0">2) Durante uma auditoria de acompanhamento, não é necessário revisar os registros relacionados às não conformidades anteriores.</p>
+                        <div class="d-flex flex-wrap flex-md-nowrap justify-content-evenly">
+                            <button class="alt-e botao hvr-grow-shadow">Verdadeiro</button>
+                            <button class="alt-c botao hvr-grow-shadow">Falso</button>
+                        </div>
+                        <div class="feedbacks">
+                            <p class="f-positivo"><i
+                                    class="fas fa-check"></i> Parabéns! Resposta correta. Auditorias são uma excelente forma de identificar registros passados e verificar sua evolução e melhoria.</p>
+                            <p class="f-negativo"><i
+                                    class="fas fa-times"></i> Resposta incorreta. Você escolheu a opção errada.</p>
+                        </div>
+                    </div>
+                    <div class="esquemaDaBru verdadeiro-falso">
+                      <p class="enunciado" tabindex="0">3) As auditorias de acompanhamento são mais detalhadas e abrangentes do que as auditorias internas regulares.</p>
+                      <div class="d-flex flex-wrap flex-md-nowrap justify-content-evenly">
+                          <button class="alt-e botao hvr-grow-shadow">Verdadeiro</button>
+                          <button class="alt-c botao hvr-grow-shadow">Falso</button>
+                      </div>
+                      <div class="feedbacks">
+                          <p class="f-positivo"><i
+                                  class="fas fa-check"></i> Parabéns! Resposta correta. Auditorias internas são muito mais precisas e aprofundam mais detalhes dos processos.</p>
+                          <p class="f-negativo"><i
+                                  class="fas fa-times"></i> Resposta incorreta. Você escolheu a opção errada.</p>
+                      </div>
+                  </div>
+                  </div>
+
+                  <div class="modal-footer">
+                      <button type="button" class="botao hvr-sweep-to-right" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+            
 
           <div class="modal fade" id="modalTipos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
@@ -389,6 +389,9 @@
                         <h5 class="modal-title" id="exampleModalLabel">Tipos de auditoria de acompanhamento</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+
+
+
                     <div class="modal-body">
 
                       <p>

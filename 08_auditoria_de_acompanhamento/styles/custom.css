@@ -1,0 +1,63 @@
+.painel-principal{
+    height: 453px;
+    width: 801px;
+    background: url(../img/timeline.png) center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.btn__painel-principal{
+    background: transparent;
+    border: none;
+    position: absolute;
+}
+
+.btn-conceito__painel-principal{
+    background: url(../img/bt1.png);
+    height: 118px;
+    width: 141px;
+    top:1%;
+    left: 13%;
+}
+
+.btn-aplicacao__painel-principal{
+    background: url(../img/bt2.png);
+    height: 112px;
+    width: 272px;
+    top:76%;
+    left: 33%;
+}
+
+.btn-tipo__painel-principal{
+    background: url(../img/bt3.png);
+    height: 118px;
+    width: 150px;
+    top:1%;
+    left: 71%;
+}
+
+.btn__painel-principal:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.audio-player::before{
+    background: none;
+    
+}
+.audio-player::after{
+    background: none;
+    height: 0px;
+}
+
+.bg-podcast::after{
+    background: none;
+}
+
+.bg-podcast > div::after{
+    background: none;
+}
+
+.bg-podcast {
+    padding-bottom: 0px;
+}
