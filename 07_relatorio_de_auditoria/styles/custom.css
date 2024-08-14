@@ -19,3 +19,59 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+
+.painel-prancheta{
+  width: 501px;
+  height: 588px;
+  background: url(../img/layout_painel.png);
+  margin: auto;
+  position: relative;
+}
+
+.btn__painel-prancheta{
+  position: absolute;
+  width: 237px;
+  height: 70px;
+  background: transparent;
+  border: none;
+}
+
+.btn-estrutura__painel-prancheta{
+  background: url(../img/bt01.png);
+  top: 16.5%;
+  left: 11.5%;
+}
+
+.btn-finalidade__painel-prancheta{
+  background: url(../img/bt02.png);
+  top: 30%;
+  left: 11.5%;
+}
+
+.btn-exemplos__painel-prancheta{
+  background: url(../img/bt03.png);
+  top: 44%;
+  left: 11%;
+}
+.btn__painel-prancheta:hover{
+  transition: 0.5s ease;
+  
+}
+
+.btn-estrutura__painel-prancheta:hover{
+  background: url(../img/bt01_.png);
+}
+
+.btn-finalidade__painel-prancheta:hover{
+  background: url(../img/bt02_.png);
+}
+
+.btn-exemplos__painel-prancheta:hover{
+  background: url(../img/bt03_.png);
+}
+
+.btn-exemplo{
+  display: block;
+  margin: auto;
+}
