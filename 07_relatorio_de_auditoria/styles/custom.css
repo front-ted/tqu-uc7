@@ -24,7 +24,7 @@
 .painel-prancheta{
   width: 501px;
   height: 588px;
-  background: url(../img/layout_painel.png);
+  background: url(../img/prancheta.png);
   margin: auto;
   position: relative;
 }
@@ -39,39 +39,69 @@
 
 .btn-estrutura__painel-prancheta{
   background: url(../img/bt01.png);
+  background-repeat: no-repeat;
   top: 16.5%;
   left: 11.5%;
 }
 
 .btn-finalidade__painel-prancheta{
   background: url(../img/bt02.png);
+  background-repeat: no-repeat;
   top: 30%;
   left: 11.5%;
 }
 
 .btn-exemplos__painel-prancheta{
   background: url(../img/bt03.png);
+  background-repeat: no-repeat;
+
   top: 44%;
   left: 11%;
 }
+
 .btn__painel-prancheta:hover{
   transition: 0.5s ease;
-  
+  transform: scale(1.1);
+
 }
 
 .btn-estrutura__painel-prancheta:hover{
   background: url(../img/bt01_.png);
+  background-repeat: no-repeat;
+
+
 }
 
 .btn-finalidade__painel-prancheta:hover{
   background: url(../img/bt02_.png);
+  background-repeat: no-repeat;
+
 }
 
 .btn-exemplos__painel-prancheta:hover{
   background: url(../img/bt03_.png);
+  background-repeat: no-repeat;
+
 }
 
 .btn-exemplo{
   display: block;
   margin: auto;
+}
+
+
+
+@media screen and (max-width: 600px){  
+  .painel-prancheta{
+    width: 100%;
+    height: 600px;
+    background: none;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn__painel-prancheta{
+    position: relative;
+  }
 }
