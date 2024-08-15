@@ -1,3 +1,23 @@
+
+
+body{
+    background-image: 
+    radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), 
+    radial-gradient(farthest-corner at 106% 114%, #1A447F 5%, transparent 25%), 
+    radial-gradient(farthest-corner at -2% 75%, #CF9993 0%, transparent 25%),  
+    url(../img/fig01.png), 
+    url(../img/fig02.png),
+    url(../img/fig03.png);
+    position: relative, relative, relative, fixed, fixed, fixed;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat !important;
+    background-size: cover, cover, cover, 20%, 20%, 20% !important;
+    background-position: center,  center, center, 0% 14%, 100% 48%, 0% 74% !important;
+}
+
+
+
+
+
 .espera-video{
     background-color: black;
     color: antiquewhite;
@@ -50,3 +70,16 @@
 }
 
 
+
+@media screen and (max-width: 1400px){  
+    body{
+        background-image: 
+        radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), 
+        radial-gradient(farthest-corner at 106% 114%, #1A447F 5%, transparent 25%), 
+        radial-gradient(farthest-corner at -2% 75%, #CF9993 0%, transparent 25%);
+        position: relative;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+  }
