@@ -4,7 +4,10 @@
     background: url(../img/parallax1.jpg);
     background-size: cover;
     background-attachment: fixed !important;
+    display: flex;
+    justify-content: center; 
 }
+
 
 .bloco-paralax2 {
     width: 100%;
@@ -12,7 +15,10 @@
     background: url(../img/parallax2.jpg);
     background-size: cover;
     background-attachment: fixed !important;
+    display: flex;
+    justify-content: center;   
 }
+
 
 .bloco-paralax3 {
     width: 100%;
@@ -20,8 +26,19 @@
     background: url(../img/parallax3.jpg);
     background-size: cover;
     background-attachment: fixed !important;
+    display: flex;
+    justify-content: center;
 }
 
+
+.bloco-paralax .container, 
+.bloco-paralax2 .container, 
+.bloco-paralax3 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ 
 .btn-exemplo{
     border: none;
     height: 242px;
