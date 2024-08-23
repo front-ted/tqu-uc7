@@ -47,6 +47,7 @@
     background: url(../img/bt-exemplo.png);
     display: block;
     margin: auto;
+    color: transparent;
 }
 
 .btn-exemplo:hover{
