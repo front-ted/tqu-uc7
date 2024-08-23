@@ -14,7 +14,10 @@ body{
     background-position: center,  center, center, 0% 14%, 100% 48%, 0% 74% !important;
 }
 
-
+.offcanvas{
+    background: #294b82
+    ;
+}
 
 
 
