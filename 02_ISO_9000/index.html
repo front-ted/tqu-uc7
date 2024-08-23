@@ -68,10 +68,10 @@
             As auditorias têm um papel muito importante para as organizações, pois é por meio dessa prática que as empresas conseguem manter o controle de seus processos e identificar possíveis oportunidades de melhoria. Para que se possa conduzir e acompanhar auditorias de forma efetiva, é importante conhecer os diferentes termos utilizados, para que todos os envolvidos estejam alinhados no processo de auditoria. Para que esse alinhamento seja possível, diferentes termos são abordados na série ISO 9000, que trata de conceitos fundamentais, princípios e vocabulário adequado aos sistemas de gestão da qualidade nas mais diferentes organizações. 
           </p>
 
-          <h3>ISO 9000</h3>
+          <h3 class="mt-5">ISO 9000</h3>
 
-          <div class="grafismo">
-            <div class="destaque borda-colorida icone relembrar">
+          <div class="grafismo" >
+            <div class="destaque borda-colorida icone relembrar" style="margin-top: 50px;">
               <p>
                 O termo <b>ISO</b> é a sigla de <b>International Organization for Standardization</b>, traduzido para o português como <b>Organização Internacional de Padronização</b>. Essa organização tem um conjunto de regras e normas com o objetivo de garantir padrões de qualidade, otimizando processos e estabelecendo modelos que podem ser seguidos por diferentes instituições. 
               </p>
@@ -79,14 +79,8 @@
           </div>
 
           <p>
-            Tudo deve ser padronizado segundo as normas, inclusive é natural que termos e conceitos utilizados nas diferentes etapas e processos do sistema de gestão também sejam, pois todos os envolvidos precisam estar alinhados quanto à linguagem e à comunicação utilizada. Por isso, a ISO 9000 se dedica a 
+            Tudo deve ser padronizado segundo as normas, inclusive é natural que termos e conceitos utilizados nas diferentes etapas e processos do sistema de gestão também sejam, pois todos os envolvidos precisam estar alinhados quanto à linguagem e à comunicação utilizada. Por isso, a ISO 9000 se dedica a “(...) auxiliar o usuário a entender os conceitos fundamentais, princípios e vocabulários de gestão da qualidade, de forma que sejam capazes de implementar eficaz e eficientemente um SGQ e obter valor de outras normas de SGQ” (ABNT, 2015, p. 6).
           </p>
-
-          <div class="citacao">
-            <p>
-              (...) auxiliar o usuário a entender os conceitos fundamentais, princípios e vocabulários de gestão da qualidade, de forma que sejam capazes de implementar eficaz e eficientemente um SGQ e obter valor de outras normas de SGQ (ABNT, 2015, p. 6).
-            </p>
-          </div>
 
           <p class="mt-5">
             Entre os termos que são abordados pela ISO 9000, o foco deste estudo será no item <b>3.13 Termos referentes à auditoria</b>. 
@@ -106,11 +100,12 @@
             <div class="background-layer"></div>
             
               <button type="button" class="bt-processo-partes bt-processo mx-auto" data-bs-toggle="modal" data-bs-target="#modalProcessos">
-                
+                Processo
               </button>
             
             
               <button type="button" class="bt-processo-partes bt-partes mx-auto" data-bs-toggle="modal" data-bs-target="#modalPartesEnvolvidas">
+                Partes envolvidas
               </button>
           </div>    
 
@@ -118,15 +113,17 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Processo</h5>
+                        <h5 class="modal-title no-print" id="exampleModalLabel">Processo</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         
+                      <h3 class="visually-hidden print" aria-hidden="true">Processo</h3>
+
                       <h4>Auditoria</h4>
 
                       <p>
-                        O primeiro termo abordado no item <b>3.13 Termos referentes à auditoria</b> é, justamente, o conceito de <b>auditoria</b>, que representa o item 3.13.1. De acordo com a norma ISO 9000 (ABNT, 2015, p. 35), “auditoria é um <i>processo</i> sistemático, independente e documentado para obter <i>evidência objetiva</i> e avaliá-la objetivamente para determinar a extensão na qual os critérios de auditoria são atendidos”. Ou seja, é um processo que precisa acontecer de tempos em tempos, em que as pessoas que conduzem a auditoria não devem ter relação com a área que está sendo auditada e, por isso, ela é independente. Além disso, precisam ser registrados em documentos todas as situações observadas durante o processo. 
+                        O primeiro termo abordado no item <b>3.13 Termos referentes à auditoria</b> é, justamente, o conceito de <b>auditoria</b>, que representa o item 3.13.1. De acordo com a norma ISO 9000 (ABNT, 2015, p. 35), “auditoria é um <i>processo</i> sistemático, independente e documentado para obter <i>evidência objetiva</i> e avaliá-la objetivamente para determinar a extensão na qual os critérios de auditoria são atendidos”. Ou seja, é um processo que precisa acontecer de tempos em tempos, em que as pessoas que conduzem a auditoria não devem ter relação com a área que está sendo auditada e, por isso, ela é independente. Além disso, precisam ser registradas em documentos todas as situações observadas durante o processo. 
                       </p>
 
                       <p>
@@ -161,7 +158,7 @@
 
                       </ul>
                       
-                      <div class="tab-content" id="myTabContent">
+                      <div class="tab-content no-print" id="myTabContent">
                         
                         <div class="tab-pane fade show active" id="nota1" role="tabpanel" aria-labelledby="nota1-tab">Os elementos que são fundamentais para uma auditoria incluem a determinação da conformidade de uma determinada situação, de acordo com um procedimento, ou seja, a forma como a auditoria será realizada, que deve ser conduzida por pessoas que não são as responsáveis pelo que está sendo auditado. De forma resumida, a auditoria contém etapas e objetiva identificar se tudo está de acordo com o padrão estabelecido pela norma, além disso, a área que está sendo auditada não pode ter como auditor alguém da própria área.</div>
 
@@ -173,7 +170,19 @@
 
                       </div>
 
-                      <h4>Auditoria combinada</h4>
+                      <div class="visually-hidden" aria-hidden="true">
+                        
+                        <p>Os elementos que são fundamentais para uma auditoria incluem a determinação da conformidade de uma determinada situação, de acordo com um procedimento, ou seja, a forma como a auditoria será realizada, que deve ser conduzida por pessoas que não são as responsáveis pelo que está sendo auditado. De forma resumida, a auditoria contém etapas e objetiva identificar se tudo está de acordo com o padrão estabelecido pela norma, além disso, a área que está sendo auditada não pode ter como auditor alguém da própria área.</p>
+
+                        <p>Uma auditoria pode ser tanto <b>interna</b>, chamada de auditoria de primeira parte, ou <b>externa</b>, que é a auditoria de segunda ou terceira parte. Além disso, pode ocorrer uma auditoria combinada ou conjunta. Seu conceito será aprofundado na sequência deste conteúdo.</p>
+                        
+                        <p>As auditorias <b>internas</b> ou de <b>primeira parte</b>, como são chamadas também, são conduzidas pela própria organização para realizar uma análise crítica sobre como está o SGQ na empresa. Nesse caso, a independência da auditoria, que é um dos requisitos desse processo, se dá pela não participação de integrantes de seu setor/área na auditoria.</p>
+
+                        <p>As <b>auditorias externas</b> são também conhecidas como <b>auditorias de segunda</b> ou <b>terceira parte</b>. As <b>auditorias de segunda parte</b> são conduzidas por partes externas, que têm interesse na organização, como clientes. E as <b>auditorias de terceira parte</b> são aquelas realizadas por organizações de auditoria externa, independentes, como as que fornecem certificação/registro de conformidade ou por agências governamentais, quando for o caso.</p>
+
+                      </div>
+
+                      <h4 class="mt-5">Auditoria combinada</h4>
 
                       <p>
                         Na sequência dos termos abordados, há o item 3.13.2, que trata das auditorias combinadas. De acordo com a norma ISO 9000, <b>auditoria combinada é uma auditoria realizada em um único auditado, em dois ou mais sistemas de gestão</b>. Ou seja, nesse caso, a auditoria combinada será realizada para identificar se todas as operações da empresa estão de acordo com as normas de seus sistemas de gestão. Então se além do sistema de gestão da qualidade (ISO 9001) a empresa também tem um sistema de gestão ambiental (ISO 14001) ou um sistema de gestão da segurança e saúde no trabalho (ISO 45001), na auditoria combinada, esses diferentes sistemas de gestão serão auditados. 
@@ -382,7 +391,7 @@
                         <h4>Critério de auditoria</h4>
 
                         <p>
-                          Seguindo nos termos apresentados, temos o item 3.13.7, que trata dos critérios de auditoria, que “são o conjunto de políticas, procedimentos ou requisitos usados como uma referência com a qual a evidência objetiva é comparada” (ABNT, 2015, p. 36). Ou seja, são os critérios que guiarão a auditoria, para que seja possível identificar se a empresa está ou não de acordo com esses critérios estabelecidos. São como pontos de referência de como os processos e as atividades da organização precisam ser realizados, a fim de saber se estão ou não adequados, de acordo com esses pontos de referência. Por exemplo, ao realizar uma auditoria no sistema de gestão da qualidade, como critério de auditoria, é utilizada a ISO 9001 atual, assim como a política da qualidade da empresa, além disso, caso existam outros critérios utilizados, também deverão ser considerados para guiar as observações da auditoria. No caso de uma auditoria combinada, os critérios que orientam o outro sistema de gestão que será auditado também precisa ser observado. 
+                          Seguindo nos termos apresentados, há o item 3.13.7, que trata dos critérios de auditoria, que “são o conjunto de políticas, procedimentos ou requisitos usados como uma referência com a qual a evidência objetiva é comparada” (ABNT, 2015, p. 36). Ou seja, são os critérios que guiarão a auditoria, para que seja possível identificar se a empresa está ou não de acordo com esses critérios estabelecidos. São como pontos de referência de como os processos e as atividades da organização precisam ser realizados, a fim de saber se estão ou não adequados, de acordo com esses pontos de referência. Por exemplo, ao realizar uma auditoria no sistema de gestão da qualidade, como critério de auditoria, é utilizada a ISO 9001 atual, assim como a política da qualidade da empresa, além disso, caso existam outros critérios utilizados, também deverão ser considerados para guiar as observações da auditoria. No caso de uma auditoria combinada, os critérios que orientam o outro sistema de gestão que será auditado também precisa ser observado. 
                         </p>
 
                         <h4>Evidência de auditoria</h4>
@@ -512,14 +521,16 @@
             </div>
           </div>
 
-          <div class="modal fade" id="modalPartesEnvolvidas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal fade" id="modalPartesEnvolvidas" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Partes envolvidas</h5>
+                        <h5 class="modal-title no-print" id="exampleModalLabel1">Partes envolvidas</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
+
+                      <h3 class="visually-hidden print" aria-hidden="true">Partes envolvidas</h3>
 
                       <h4>Cliente de auditoria</h4>
 
@@ -529,7 +540,7 @@
 
                       <figure class="my-5">
                         <div class="figure-img">
-                            <img class="img-fluid mx-auto d-block img-partes" src="img/img01.png">
+                            <img class="img-fluid mx-auto d-block img-partes no-print" src="img/img01.png">
                         </div>
                       </figure>
                     
@@ -541,7 +552,7 @@
 
                       <figure class="my-5">
                         <div class="figure-img">
-                            <img class="img-fluid mx-auto d-block img-partes" src="img/img02.png">
+                            <img class="img-fluid mx-auto d-block img-partes no-print" src="img/img02.png">
                         </div>
                       </figure>                     
                       
@@ -554,7 +565,7 @@
 
                       <figure class="my-5">
                         <div class="figure-img">
-                            <img class="img-fluid mx-auto d-block img-partes" src="img/img03.png">
+                            <img class="img-fluid mx-auto d-block img-partes no-print" src="img/img03.png">
                         </div>
                       </figure>
 
@@ -567,7 +578,7 @@
 
                       <figure class="my-5">
                         <div class="figure-img">
-                            <img class="img-fluid mx-auto d-block img-partes" src="img/img04.png">
+                            <img class="img-fluid mx-auto d-block img-partes no-print" src="img/img04.png">
                         </div>
                       </figure>
                      
@@ -580,7 +591,7 @@
                      
                       <figure class="my-5">
                         <div class="figure-img  mb-4">
-                            <img class="img-fluid mx-auto d-block img-partes" src="img/img05.png">
+                            <img class="img-fluid mx-auto d-block img-partes no-print" src="img/img05.png">
                         </div>
                       </figure>
                         
@@ -592,7 +603,7 @@
 
                       <figure class="my-5">
                         <div class="figure-img  mb-4">
-                            <img class="img-fluid mx-auto d-block img-partes" src="img/img06.png">
+                            <img class="img-fluid mx-auto d-block img-partes no-print" src="img/img06.png">
                         </div>
                       </figure>
                      
@@ -621,12 +632,94 @@
 
 
 
-          <div class="table-responsive">
+          <div class="table-responsive no-print">
             <table class="text-center align-middle">
               <thead>
                   <tr>
                       <th class="w-15"><b>Termo</b></th>
                       <th class="w-15"><b>Conceito</b></th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Auditoria</td>
+                  <td>Processo sistemático, independente e documentado para obter evidência objetiva e avaliá-la objetivamente para determinar a extensão na qual os critérios de auditoria são atendidos. </td>
+                </tr>
+                <tr>
+                  <td>Auditoria combinada</td>
+                  <td>Auditoria realizada em um único auditado, em dois ou mais sistemas de gestão. </td>
+                </tr>
+                <tr>
+                  <td>Auditoria conjunta</td>
+                  <td>Auditoria realizada em um único auditado por duas ou mais organizações de auditorias. </td>
+                <tr>
+                  <td>Programa de auditoria</td>
+                  <td>Conjunto de uma ou mais auditorias, planejado para um período específico e direcionado a um propósito específico. </td>
+                </tr>
+                <tr>
+                  <td>Escopo de auditoria</td>
+                  <td>Abrangência e limites de uma auditoria, ou seja, quais partes serão auditadas.</td>
+                </tr>
+                <tr>
+                  <td>Plano de auditoria </td>
+                  <td>Descrição de atividades e de tudo o que será necessário para o processo de auditoria ser realizado. Datas também são incluídas no plano de auditoria. </td>
+                </tr>
+                <tr>
+                  <td>Critério de auditoria </td>
+                  <td>Conjunto de políticas, procedimentos ou requisitos usados como referência, com o qual a evidência objetiva é comparada. São os critérios que guiam a auditoria. </td>
+                </tr>
+                <tr>
+                  <td>Evidência de auditoria</td>
+                  <td>Registros, apresentação de fatos ou outras informações que são pertinentes aos critérios de auditoria e que sejam verificáveis. </td>
+                </tr>
+                <tr>
+                  <td>Constatações de auditoria </td>
+                  <td>Resultados da avaliação de evidência de auditoria coletada comparada com os critérios de auditoria. </td>
+                </tr>
+                <tr>
+                  <td>Conclusão de auditoria</td>
+                  <td>Resultado obtido após levar em consideração os objetivos de auditoria e todas as constatações de auditoria.</td>
+                </tr>
+                <tr>
+                  <td>Cliente de auditoria</td>
+                  <td>Organização ou pessoa que solicita uma auditoria. </td>
+                </tr>
+                <tr>
+                  <td>Auditado</td>
+                  <td>Organização que está sendo auditada, ou seja, que está recebendo a auditoria. </td>
+                </tr>
+                <tr>
+                  <td>Guia</td>
+                  <td>Pessoa indicada pelo auditado para apoiar a equipe de auditoria. Alguém que conhece a organização e o sistema de gestão da qualidade e fará o papel de guiar a equipe de auditoria.</td>
+                </tr>
+                <tr>
+                  <td>Equipe de auditoria</td>
+                  <td>Uma ou mais pessoas que realizam a auditoria, ou seja, que conduzem o processo de auditoria no auditado.</td>
+                </tr>
+                <tr>
+                  <td>Auditor</td>
+                  <td>Pessoa que realiza uma auditoria.</td>
+                </tr>
+                <tr>
+                  <td>Especialista</td>
+                  <td>Pessoa com algum conhecimento ou experiência específicos para a equipe de auditoria. </td>
+                </tr>
+                <tr>
+                  <td>Observador</td>
+                  <td>Pessoa que acompanha a equipe de auditoria, mas não atua como auditor.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
+          <div class="table-responsive print visually-hidden" aria-hidden="true">
+            <table class="text-center align-middle">
+              <thead>
+                  <tr>
+                      <td><b>Termo</b></td>
+                      <td><b>Conceito</b></td>
                   </tr>
               </thead>
               <tbody>

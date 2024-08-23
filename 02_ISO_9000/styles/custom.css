@@ -48,6 +48,7 @@
   .bt-processo-partes{
     height: 86px;
     width: 301px;
+    color: transparent;
   }
 
   .bt-processo-partes:hover{
