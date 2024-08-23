@@ -46,6 +46,7 @@ body{
     border: none;
     height: 301px;
     width: 351px;
+    color: transparent;
 }
 
 .btn-auditoria:hover{

@@ -80,6 +80,7 @@
       <div class="layer-preta no-print"></div>
 
       <section class="paginas">
+
         <div class="pagina">
 
           <div class="container">
@@ -111,13 +112,14 @@
 
             <h3>Conceito de auditoria de sistemas de gestão da qualidade</h3>
 
-            <div class="espera-video">
+            <div class="espera-video no-print">
 
               ESPERA VIDEO
 
             </div>
 
-            <div class="acessivel print visually-hidden">
+            
+            <div class="acessivel print visually-hidden ">
 
               <p>
                 A busca pelas origens nos conduz à compreensão dos conceitos fundamentais da auditoria, uma prática que remonta a tempos antigos e que evoluiu de forma significativa ao longo dos séculos. 
@@ -151,8 +153,8 @@
                 <table class="text-center align-middle">
                   <thead>
                       <tr>
-                          <th class="w-50">Auditorias</th>
-                          <th class="w-50">Finalidade </th>
+                          <td>Auditorias</td>
+                          <td>Finalidade </td>
                       </tr>
                   </thead>
                   <tbody>
@@ -232,12 +234,7 @@
             <p>
               Na implementação de um SGQ, a supervisão das atividades para avaliar a implementação do sistema é o dispositivo de maior abrangência da alta direção, pois não é suficiente estabelecer e formalizar uma estratégia para a qualidade sem proporcionar um mecanismo de acompanhamento e avaliação dos requisitos estabelecidos para esse sistema.  
             </p>
-         
-            <!-- <figure>
-              <div class="figure-img">
-                  <img class="img-fluid mx-auto d-block" src="img/fig01.png">
-              </div>                      
-            </figure> -->
+      
 
             <p>
               A auditoria de sistemas de gestão da qualidade evoluiu significativamente, influenciada por avanços tecnológicos, mudanças no ambiente regulatório e aprendizados organizacionais. Foi, aos poucos, sendo reconhecida não apenas como uma ferramenta de conformidade, mas também como um meio eficaz de identificar oportunidades de melhoria e promover a excelência operacional. 
@@ -323,7 +320,7 @@
                         Planejamento da auditoria 
                       </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionEtapasAuditoria">
+                  <div id="collapseOne" class="accordion-collapse collapse acessivel" aria-labelledby="headingOne" data-bs-parent="#accordionEtapasAuditoria">
                       <div class="accordion-body">
                           <p>
                             Essa etapa envolve a definição dos objetivos, o escopo e os critérios da auditoria, além da seleção da equipe de auditores e a elaboração do plano de auditoria. 
@@ -406,31 +403,36 @@
               Acerca desse processo, a norma ISO 19011 – Diretrizes para auditoria de sistemas de gestão é abrangente e oferece todas as orientações necessárias à realização de auditorias de sistemas de gestão. Destaca a importância da competência dos auditores, da independência e da imparcialidade do processo de auditoria e da abordagem baseada em riscos. Além disso, enfatiza a necessidade de os auditores conduzirem suas atividades em conformidade com determinados princípios de conduta, conforme apresentado a seguir. 
             </p>
           
-            <p>
+            <p class="no-print">
               Clique ou toque para visualizar o conteúdo. 
             </p>
 
-            <div class="painel-condutas">
+            <div class="painel-condutas no-print">
               <button type="button" class="btn-painel-condutas btn-conduta-etica" data-bs-toggle="modal" data-bs-target="#modalCondutaEtica">
+                Conduta Ética
               </button>
 
               <button type="button" class="btn-painel-condutas btn-apresentacao-justa" data-bs-toggle="modal" data-bs-target="#modalApresentacaoJusta">
+                Apresentação Justa
               </button>
 
               <button type="button" class="btn-painel-condutas btn-cuidado-profissional" data-bs-toggle="modal" data-bs-target="#modalCuidadoProfissional">
+                Cuidado profissional
               </button>
 
               <button type="button" class="btn-painel-condutas btn-independencia" data-bs-toggle="modal" data-bs-target="#modalIndependencia">
+                Independência
               </button>
 
               <button type="button" class="btn-painel-condutas btn-abordagem-baseada-em-evidencia" data-bs-toggle="modal" data-bs-target="#modalAbordagemBaseadaEvidencia">
+                Abordagem baseada em evidência
               </button>
             
             </div>
 
             <!-- modais painel-condutas-->
 
-            <div class="modal fade" id="modalCondutaEtica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalCondutaEtica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -446,11 +448,11 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="modalApresentacaoJusta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalApresentacaoJusta" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="false">
               <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Apresentação justa</h5>
+                          <h5 class="modal-title" id="exampleModalLabel2">Apresentação justa</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
@@ -462,11 +464,11 @@
               </div>
             </div>
 
-            <div class="modal fade" id="modalCuidadoProfissional" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalCuidadoProfissional" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="false">
               <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Cuidado profissional</h5>
+                          <h5 class="modal-title" id="exampleModalLabel3">Cuidado profissional</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
@@ -478,11 +480,11 @@
               </div>
             </div>
 
-            <div class="modal fade" id="modalIndependencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalIndependencia" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="false">
               <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Independência</h5>
+                          <h5 class="modal-title" id="exampleModalLabel4">Independência</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
@@ -494,11 +496,11 @@
               </div>
             </div>
 
-            <div class="modal fade" id="modalAbordagemBaseadaEvidencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalAbordagemBaseadaEvidencia" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="false">
               <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Abordagem baseada em evidência</h5>
+                          <h5 class="modal-title" id="exampleModalLabel5">Abordagem baseada em evidência</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
@@ -535,9 +537,17 @@
               Essa avaliação sistemática e imparcial dos processos do SGQ permite à organização identificar não conformidades e implementar ações corretivas e preventivas, contribuindo para a excelência operacional. Contudo, os objetivos de uma auditoria de sistemas de gestão da qualidade também podem ser diversos e abrangentes. Veja alguns dos principais no infográfico a seguir. 
             </p>
 
-            <figure>
+            <figure class="no-print">
               <div class="figure-img">
                   <img class="img-fluid mx-auto d-block" src="img/infografico.png">
+              </div>                      
+            </figure>
+
+            <figure class="visually-hidden print" aria-hidden="true">
+              <div class="figure-img">
+                  <img class="img-fluid mx-auto d-block" src="img/infografico.png" style="height: 600px; width: 800px;">
+
+
               </div>                      
             </figure>
 
@@ -570,13 +580,7 @@
             <p>
               É importante salientar que essas avaliações auxiliam na identificação e na redução de perigos operacionais e estratégicos, permitindo à empresa avaliar a eficiência dos controles internos e gerenciar preventivamente os perigos relacionados às suas atividades. Essa abordagem preventiva e com base em riscos permite que a organização tome medidas corretivas e preventivas oportunas, minimizando o impacto de possíveis falhas e não conformidades. 
             </p>
-<!-- 
-            <figure>
-              <div class="figure-img">
-                  <img class="img-fluid mx-auto d-block" src="img/fig02.png">
-              </div>                      
-            </figure> -->
-            
+
 
             <p>
               As avaliações do SGQ promovem a transparência e a prestação de contas às partes interessadas internas e externas, proporcionando uma verificação independente do desempenho da organização perante clientes, reguladores e outras partes interessadas, aprimorando sua credibilidade e confiança no mercado. Essa transparência e a prestação de contas tornam a organização mais próxima de todos os seus clientes e contribuem para sua reputação e imagem no mercado. 
@@ -590,15 +594,14 @@
               A auditoria oferece uma oportunidade única de aprendizagem organizacional. A análise das não conformidades e a identificação das causas subjacentes dos problemas tornam possível implementar ações corretivas e preventivas eficazes, incentivando uma cultura de melhoria contínua e resiliência diante dos diversos e constantes desafios do mercado. 
             </p>
 
-
-
-            <div class="table-responsive">
+            <div class="table-responsive no-print">
               <table class="text-center align-middle">
                 <thead>
                     <tr>
                         <th class="w-15"><b>Objetivos</b></th>
                         <th class="w-15"><b>Vantagens </b></th>
                     </tr>
+                    
                 </thead>
                 <tbody>
                   <tr>
@@ -620,6 +623,37 @@
                 </tbody>
               </table>
             </div>
+
+            <div class="table-responsive print visually-hidden" aria-hidden="true">
+              <table class="text-center align-middle">
+                <thead>
+                    <tr>
+                        <td><b>Objetivos</b></td>
+                        <td><b>Vantagens </b></td>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Verificar a conformidade com normas e padrões </td>
+                    <td>Fortalecimento da credibilidade da empresa e aumento da competitividade no mercado global. </td>
+                  </tr>
+                  <tr>
+                    <td>Identificar pontos fortes e áreas de melhoria </td>
+                    <td>A otimização da eficiência operacional, o aumento da satisfação do cliente e a possibilidade de redução de desperdícios. </td>
+                  </tr>
+                  <tr>
+                    <td>Promover cultura organizacional de qualidade </td>
+                    <td>Transparência, responsabilidade e compromisso com a qualidade.</td>
+                  </tr>
+                  <tr>
+                    <td>Facilitar a aprendizagem organizacional </td>
+                    <td>A implementação de ações corretivas e preventivas, aumentando a cultura de melhoria contínua.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
             <figcaption class="figure-caption text-center">Síntese de objetivos e vantagens das auditorias de sistema de gestão da qualidade  <br> 
               Fonte: Adaptado de Cerqueira; Martins (2004) </figcaption>
 
@@ -668,30 +702,24 @@
               <div class="row g0">
                 <div class="col-md-6">
                   <button type="button" class="btn-auditoria btn-auditoria-interna" data-bs-toggle="modal" data-bs-target="#modalAuditoriaInterna">
+                    Auditoria Interna
                   </button>
                 </div>
                 <div class="col-md-6">
                   <button type="button" class="btn-auditoria btn-auditoria-externa" data-bs-toggle="modal" data-bs-target="#modalAuditoriaExterna">
+                    Auditoria Externa
                   </button>
                 </div>
               </div>
-
-
-
-
-              
-
-             
-
             </div>
 
             <!-- modais tipos auditorias -->
 
-            <div class="modal fade" id="modalAuditoriaInterna" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalAuditoriaInterna" tabindex="-1" aria-labelledby="auditoriaInternaModalLabel" aria-hidden="false">
               <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Auditoria interna</h5>
+                          <h5 class="modal-title" id="auditoriaInternaModalLabel">Auditoria interna</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
@@ -717,11 +745,11 @@
               </div>
             </div>
 
-            <div class="modal fade" id="modalAuditoriaExterna" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalAuditoriaExterna" tabindex="-1" aria-labelledby="auditoriaExternaModalLabel" aria-hidden="false">
               <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Auditoria externa</h5>
+                          <h5 class="modal-title" id="auditoriaExternaModalLabel">Auditoria externa</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
@@ -739,7 +767,7 @@
                               <b>Relacionamento com partes interessadas:</b> os auditores externos precisam manter um relacionamento eficaz com as partes interessadas durante a auditoria. Isso inclui uma comunicação clara e transparente sobre os procedimentos de auditoria, resultados e recomendações, garantindo a confiança e o apoio das partes interessadas.
                             </li>
                             <li>
-                              <b>Melhores práticas e benchmarking:</b> os auditores externos podem contribuir para a identificação de melhores práticas e benchmarking durante a auditoria. Ao comparar o desempenho da organização com padrões reconhecidos e outras empresas do setor, os auditores podem fornecer insights valiosos para a melhoria contínua do SGQ. 
+                              <b>Melhores práticas e <i>benchmarking</i>:</b> os auditores externos podem contribuir para a identificação de melhores práticas e <i>benchmarking</i> durante a auditoria. Ao comparar o desempenho da organização com padrões reconhecidos e outras empresas do setor, os auditores podem fornecer <i>insights</i> valiosos para a melhoria contínua do SGQ. 
                             </li>
                           </ul>
                       </div>
@@ -784,7 +812,7 @@
             </p>
 
 
-            <div class="table-responsive">
+            <div class="table-responsive no-print">
               <table class="text-center align-middle">
                 <thead>
                     <tr>
@@ -792,7 +820,7 @@
                         <th><b>Auditoria de 2ª parte</b></th>
                         <th><b>Auditoria de 3ª parte</b></th>
                     </tr>
-                    <tr>
+                    <tr style="border-top: 3px solid white;">
                       <th>Auditoria interna</th>
                       <th>Auditoria de fornecedor</th>
                       <th>Auditoria de certificação e/ou acreditação </th>
@@ -811,10 +839,38 @@
                 </tbody>
               </table>
             </div>
+
+            <div class="table-responsive print visually-hidden" aria-hidden="true">
+              <table class="text-center align-middle">
+                <thead>
+                    <tr>
+                        <td><b>Auditoria de 1ª parte</b></td>
+                        <td><b>Auditoria de 2ª parte</b></td>
+                        <td><b>Auditoria de 3ª parte</b></td>
+                    </tr>
+                    <tr>
+                      <td>Auditoria interna</td>
+                      <td>Auditoria de fornecedor</td>
+                      <td>Auditoria de certificação e/ou acreditação </td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      A auditoria interna é realizada por profissionais da organização, a fim de avaliar a conformidade e a eficácia dos processos internos do SGQ. É uma ferramenta indispensável para identificar não conformidades e oportunidades de melhoria, contribuindo para a eficiência operacional e a conformidade com os requisitos normativos e regulatórios.
+                    </td>
+                    <td>
+                      A auditoria de avaliação de fornecedores é uma técnica que tem como objetivo avaliar se os fornecedores atendem aos requisitos do SGQ. A auditoria é indispensável para assegurar a qualidade e a confiabilidade dos produtos e serviços fornecidos pela cadeia de suprimentos da organização. 
+                    </td>
+                    <td>A auditoria de certificação é uma forma específica de auditoria externa, realizada por organismos de certificação reconhecidos, a fim de emitir uma certificação formal de conformidade com normas e padrões específicos, como a ISO 9001. É uma etapa indispensável para obter e manter a certificação do SGQ, demonstrando o compromisso da organização com a excelência e a qualidade. </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <figcaption class="figure-caption text-center">Tipos de auditoria de sistemas de gestão da qualidade <br>Fonte: Adaptado de ABNT (2018) </figcaption>
 
             <p class="mt-5">
-              Conforme mencionado, as auditorias podem ser de natureza interna ou externa. No que diz respeito à <b>auditoria interna</b>, também conhecida como <b>auditoria de primeira parte</b>, é importante destacar são conduzidas pelos próprios membros da organização, com o propósito de avaliar a conformidade e a eficácia dos processos internos do SGQ. 
+              Conforme mencionado, as auditorias podem ser de natureza interna ou externa. No que diz respeito à <b>auditoria interna</b>, também conhecida como <b>auditoria de primeira parte</b>, é importante destacar que são conduzidas pelos próprios membros da organização, com o propósito de avaliar a conformidade e a eficácia dos processos internos do SGQ. 
             </p>
 
             <!-- <figure>
@@ -859,7 +915,7 @@
               Além dos tipos tradicionais de auditoria do SGQ, há também auditorias exclusivas para diferentes áreas e processos, que focam em aspectos específicos do SGQ, como a eficiência dos processos de produção, a qualidade dos produtos acabados e a conformidade dos fornecedores com os requisitos da organização.  
             </p>
 
-            <p>
+            <p class="no-print">
               Estudante, para saber mais sobre outros tipos de auditoria do SGQ, clique ou toque no botão de <i>play</i> para ouvir o áudio ou da transcrição para ler o conteúdo.  
             </p>
 
@@ -890,11 +946,11 @@
 
             <!-- modal transcricao audio 1 -->
 
-            <div class="modal fade" id="modalTranscricaoAudio1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalTranscricaoAudio1" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="false">
               <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Transcrição áudio</h5>
+                          <h5 class="modal-title no-print" id="exampleModalLabel10">Transcrição áudio</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
@@ -1031,7 +1087,7 @@
                 A auditoria de sistemas de gestão da qualidade abrange diversas áreas de atuação, que vão desde a verificação da conformidade de produtos e serviços até a avaliação do sistema de gestão como um todo. As principais áreas de atuação da auditoria de qualidade são gestão de processos, de recursos humanos, de fornecedores e de clientes, objetos de verificação específica, conforme detalhado a seguir.  
               </p>
 
-              <div class="table-responsive">
+              <div class="table-responsive no-print">
                 <table class="text-center align-middle">
                   <thead>
                       <tr>
@@ -1065,7 +1121,42 @@
                   </tbody>
                 </table>
               </div>
-              <figcaption class="figure-caption text-center">Principais áreas de atuação e foco de verificação da auditoria de sistemas de gestão da qualidade  <br> Fonte: Adaptado de Cerqueira; Martins (2004) e O'hanlon (2009)  (2024)</figcaption>
+
+              <div class="table-responsive print visually-hidden" aria-hidden="true">
+                <table class="text-center align-middle">
+                  <thead>
+                      <tr>
+                          <td><b>Área de atuação da organização</b></td>
+                          <td><b>Principal foco de verificação</b></td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Gestão de processos </td>
+                      <td>Conformidade de processos <br>
+                        Identificação de gargalos e pontos de melhoria </td>
+                    </tr>
+                    <tr>
+                      <td>Gestão de recursos humanos </td>
+                      <td>Competência e capacitação adequadas <br>
+
+                        Avaliação de desempenho e oportunidade de desenvolvimento profissional</td>
+                    </tr>
+                    <tr>
+                      <td>Gestão de fornecedores </td>
+                      <td>Seleção e avaliação de fornecedores <br>
+
+                        Monitoramento da qualidade de insumos e materiais </td>
+                    <tr>
+                      <td>Gestão de clientes </td>
+                      <td>Entendimento sobre as necessidades e as expectativas dos clientes <br>
+
+                        Eficácia no atendimento e no pós-venda </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <figcaption class="figure-caption text-center">Principais áreas de atuação e foco de verificação da auditoria de sistemas de gestão da qualidade  <br> Fonte: Adaptado de Cerqueira; Martins (2004) e O'hanlon (2009)</figcaption>
               
               <p class="mt-5">
                 Na gestão de processos, a auditoria tem como objetivo avaliar se os processos operacionais atendem aos requisitos de qualidade estabelecidos pela organização e às normas aplicáveis. Por exemplo, a análise da conformidade dos procedimentos, a identificação de falhas e pontos de melhoria, bem como a verificação da eficácia das medidas corretivas implementadas.  
