@@ -75,6 +75,7 @@
     background: transparent;
     height: 201px;
     width: 201px;
+    color: transparent;
 }
 
 .btn-entrevistas{
@@ -117,6 +118,7 @@
     border: none;
     height: 63px;
     width: 228px;
+    color: transparent;
 }
 
 .btn-conhecimentos{
@@ -161,6 +163,7 @@
     border: none;
     height: 201px;
     width: 201px;
+    color: transparent;
 }
 
 .btn-ISO17021{
