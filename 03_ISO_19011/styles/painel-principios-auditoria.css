@@ -129,6 +129,8 @@
     .btn-painel-principios{
       position: relative;
       background-repeat: no-repeat;
+      transition: none;
+      transform: none;
     }
 
     .btn-integridade{

@@ -51,7 +51,8 @@
   }
   img, .equacoes, figure, .print-proteger {
     page-break-inside: avoid !important;
-    max-width: 500px !important;
+    max-width: 900px !important;
+    margin: auto;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -233,7 +234,7 @@
     transition: none;
     width: auto;
     margin: 0;
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 0rem;
   }
   .modal-dialog .modal-header .btn-close{

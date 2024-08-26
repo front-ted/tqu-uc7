@@ -164,7 +164,8 @@
 }
 .pagina img	{
   display: inline-block;
-  max-width: 60% !important;
+  max-width: 80% !important;
+  margin: auto !important;
 }
 .pagina legend{
   display: block;
@@ -561,7 +562,7 @@ p{
   width: auto!important;
   height: auto!important;
   padding: initial!important;
-  margin: initial!important;
+  /* margin: initial!important; */
   overflow: visible!important;
   clip:unset!important;
   white-space:normal!important;

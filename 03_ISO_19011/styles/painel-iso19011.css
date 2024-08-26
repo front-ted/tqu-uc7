@@ -102,35 +102,68 @@
       background-color: transparent;
     }
   
+    .btn-painelISO19011:hover{
+      transition:unset;
+    }
 
     .btn-escopo{
+      background: url(../img/bt1_mobile.png);
+    }
+
+    .btn-escopo:hover{
       background: url(../img/bt1_mobile.png);
     }
   
     .btn-referencias-normativas{
       background: url(../img/bt2_mobile.png);
-  
+    }
+
+    .btn-referencias-normativas:hover{
+      background: url(../img/bt2_mobile.png);
     }
   
     .btn-termos-definicoes{
       background: url(../img/bt7_mobile.png);
-  
+    }
+
+    .btn-termos-definicoes:hover{
+      background: url(../img/bt7_mobile.png);
     }
   
     .btn-principios-auditoria{
       background: url(../img/bt3_mobile.png);
     }
+
+    .btn-principios-auditoria:hover{
+      background: url(../img/bt3_mobile.png);
+    }
   
     .btn-gerenciando-qualidade{
       background: url(../img/bt4_mobile.png);
+      height: 53px;
+    }
+
+    .btn-gerenciando-qualidade:hover{
+      background: url(../img/bt4_mobile.png);
+      height: 53px;
     }
   
     .btn-conduzindo-auditoria{
       background: url(../img/bt5_mobile.png);
     }
+
+    .btn-conduzindo-auditoria:hover{
+      background: url(../img/bt5_mobile.png);
+    }
   
     .btn-competencia-avaliacao{
       background: url(../img/bt6_mobile.png);
+      height: 53px;
+    }
+
+    .btn-competencia-avaliacao:hover{
+      background: url(../img/bt6_mobile.png);
+      height: 53px;
     }
   
   

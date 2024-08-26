@@ -68,3 +68,24 @@
     
     padding: 20px;
 }
+
+
+@media screen and (max-width: 840px) {
+    .audio-player::before {
+        left: unset;
+        right: 0;
+        height: 0px;
+        background-position: right;
+    }
+
+    .bg-podcast1::after {
+        background: none;
+    }
+
+    .audio-player1::after {
+        background: none;
+      
+    }
+
+}
+

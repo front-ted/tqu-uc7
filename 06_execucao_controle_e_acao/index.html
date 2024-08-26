@@ -115,7 +115,7 @@
             Você já participou de uma reunião de abertura de auditoria? Se sim, você se recorda de como foi? Se não, você imagina como seria uma reunião de abertura de auditoria? Então observe o diálogo entre a Norma e a Glória sobre a reunião de abertura.  
           </p>
 
-          <h2>espera HQ</h2>
+          <h2 class="no-print">espera HQ</h2>
 
 
 
@@ -428,7 +428,7 @@
                 <div class="col-md-3 my-auto no-print">
                   <figure class="my-auto">
                     <div class="figure-img  mb-4 my-auto">
-                      <img class="img-fluid mx-auto d-block my-auto" src="img/M_Ideia.png" style="height: 250px;">
+                      <img class="img-fluid mx-auto d-block my-auto no-print" src="img/M_Ideia.png" style="height: 250px;">
                     </div>
                   </figure>
                 </div>
@@ -563,7 +563,7 @@
 
           <p>Observe o diálogo em que a Norma explica para a Glória as diretrizes da ISO 19011:2018 na etapa final de execução da auditoria. </p>
 
-          <h2>espera HQ</h2>
+          <h2 class="no-print">espera HQ</h2>
 
           <div class="acessivel no-print visually-hidden">
 
@@ -616,7 +616,7 @@
 
           <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
 
-          <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+          <ul class="nav nav-tabs mt-5 no-print" id="myTab" role="tablist" aria-hidden="true">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#aprovacao" type="button" role="tab" aria-controls="home" aria-selected="true"> 1</button>
             </li>
@@ -627,11 +627,19 @@
                 <button class="nav-link" id="3-tab" data-bs-toggle="tab" data-bs-target="#aprovacaoCondicional" type="button" role="tab" aria-controls="contact" aria-selected="false"> 3</button>
             </li>
           </ul>
-          <div class="tab-content" id="myTabContent">
+          <div class="tab-content no-print" id="myTabContent">
               <div class="tab-pane fade show active" id="aprovacao" role="tabpanel" aria-labelledby="home-tab"><b>Recomendar aprovação</b>: o Sistema de Gestão – <b>SG</b> está atendendo aos requisitos normativos e a empresa está recomendada.</div>
+
               <div class="tab-pane fade" id="naoAprovacao" role="tabpanel" aria-labelledby="profile-tab"><b>Recomendar não aprovação</b>: o Sistema de Gestão – SG não atende aos requisitos. </div>
+
               <div class="tab-pane fade" id="aprovacaoCondicional" role="tabpanel" aria-labelledby="contact-tab"><b>Recomendar para aprovação sujeita a determinadas condições estabelecidas</b>: a restrição está vinculada ao fechamento de não conformidades com ou sem auditoria de acompanhamento e/ou a aprovação do plano de ação pelo auditor. </div>
           </div>
+
+          <div class="acessivel print visually-hidden">
+            <p><b>Recomendar aprovação</b>: o Sistema de Gestão – <b>SG</b> está atendendo aos requisitos normativos e a empresa está recomendada.</p>
+            <p><b>Recomendar não aprovação</b>: o Sistema de Gestão – SG não atende aos requisitos. </p>
+            <p><b>Recomendar para aprovação sujeita a determinadas condições estabelecidas</b>: a restrição está vinculada ao fechamento de não conformidades com ou sem auditoria de acompanhamento e/ou a aprovação do plano de ação pelo auditor. </p>
+        </div>
 
           <div class="grafismo">
             <div class="destaque borda-colorida icone observacao">

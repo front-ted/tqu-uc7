@@ -182,9 +182,11 @@
     
     .btn-painel-livro{
       position: relative;
-     
+      transition: none;
+      transform: none;
     }
 
+    
     .btn-evidencia-auditoria,
     .btn-evidencia-objetiva,
     .btn-equipe-auditoria,
@@ -202,7 +204,16 @@
       top: unset;
       left: unset;
     }
-    
+
+ 
+
+
+
+
+
+
+
+
     
 
 
