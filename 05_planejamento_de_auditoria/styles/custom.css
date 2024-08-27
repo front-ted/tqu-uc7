@@ -57,3 +57,25 @@
     transition: 0.5s ;
     
 }
+
+.infografico{
+    display: block;
+}
+
+.infografico-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+
+    .infografico{
+        display: none;
+    }
+    
+    .infografico-mobile{
+        display: block;
+    }
+  
+
+
+  }

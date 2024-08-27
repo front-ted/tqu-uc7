@@ -127,5 +127,31 @@ body{
     transform: scale(1.2);
   }
 
+  .fluxograma{
+    position: relative;
+  }
 
+
+  .vizualizar{
+    position: absolute;
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+    top:70%;
+    left: 80%;
+    display: none;
+  }
   
+  @media screen and (max-width: 700px){
+
+
+    .vizualizar{
+      display: block;
+    }
+    
+    .ico-vizualizar{
+        display:block;
+    }
+
+
+  }

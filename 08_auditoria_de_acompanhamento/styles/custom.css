@@ -20,20 +20,22 @@
     left: 13%;
 }
 
-.btn-aplicacao__painel-principal{
-    background: url(../img/bt2.png);
-    height: 112px;
-    width: 272px;
-    top:76%;
-    left: 33%;
-}
-
 .btn-tipo__painel-principal{
     background: url(../img/bt3.png);
-    height: 118px;
-    width: 150px;
+    height: 119px;
+    width: 272px;
     top:1%;
     left: 71%;
+}
+
+
+
+.btn-aplicacao__painel-principal{
+    background: url(../img/bt2.png);
+    height: 111px;
+    width: 150px;
+    top:76%;
+    left: 41%;
 }
 
 .btn__painel-principal:hover{
@@ -41,10 +43,7 @@
     transition: 0.5s;
 }
 
-.audio-player::before{
-    background: none;
-    
-}
+
 .audio-player::after{
     background: none;
     height: 0px;
@@ -65,33 +64,63 @@
 
 @media screen and (max-width: 940px){  
     .painel-principal{
-        height: 453px;
-        width: 100%;
-        background: url(../img/timeline-mobile.png) center;
+        height: 600px;
+        width: 70%;
+        background: url(../img/timeline-mobile.png);
         background-repeat: no-repeat;
         position: relative;
+        margin: auto;
     }
 
     .btn-conceito__painel-principal{
-        background: none;
-        left: 45%;
-    }
-    
-    .btn-tipo__painel-principal{
-        background: none ;
-        height: 113px;
-        width: 150px;
-        top: 74%;
-        left: 45%;
+        background: url(../img/bt1_2.png);
+        left: 24%;
+        top: 8%;
     }
 
     .btn-aplicacao__painel-principal{
-        background: none;
-        height: 128px;
-        width: 223px;
-        top: 36%;
-        left: 45%;
+        background: url(../img/bt2_2.png);
+        height: 110px;
+        width: 152px;
+        top: 38%;
+        left: 24%;
         
     }
+    
+    .btn-tipo__painel-principal{
+        background: url(../img/bt3_2.png) ;
+        height: 119px;
+        width: 272px;
+        top: 68%;
+        left: 24%;
+    }
+
+   
+    
+  }
+
+  @media screen and (max-width: 750px){  
+    .audio-player::before{
+    background: none;
+    
+} 
+    
+  }
+
+
+
+  
+
+
+  @media screen and (max-width: 550px){  
+    .painel-principal{
+        height: 600px;
+        width: 90%;
+        background: url(../img/timeline-mobile.png);
+        background-repeat: no-repeat;
+        position: relative;
+        margin: auto;
+    }
+   
     
   }

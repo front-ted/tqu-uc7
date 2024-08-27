@@ -90,6 +90,10 @@
   margin: auto;
 }
 
+.custom-arrow {
+  list-style-image: url("../img/marcador_arrow.png");
+}
+
 
 
 @media screen and (max-width: 600px){  

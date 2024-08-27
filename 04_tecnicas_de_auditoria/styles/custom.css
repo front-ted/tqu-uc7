@@ -188,6 +188,28 @@
 }
 
 
+.infografico{
+    position: relative;
+}
+
+.ico-vizualizar{
+    display:none;
+}
+
+
+.vizualizar{
+    position: absolute;
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+    top:90%;
+    left: 90%;
+    display: none;
+  }
+
+  
+
+
 @media screen and (max-width: 800px){
 
     .painel-tecnicas{
@@ -210,6 +232,20 @@
         flex-direction: column;
         align-items: center;
         gap: 30px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 700px){
+
+
+    .vizualizar{
+      display: block;
+    }
+    
+    .ico-vizualizar{
+        display:block;
     }
 
 
